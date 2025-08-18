@@ -1,0 +1,307 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.50f1 (f1ef1dca8bff) revision 15855389'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32682 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-08-18T12:21:58Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.50f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/GitHub/WyrmsWake/WyrmsWake
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+62072
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/GitHub/WyrmsWake/WyrmsWake
+C:/GitHub/WyrmsWake/WyrmsWake
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25828]  Target information:
+
+Player connection [25828]  * "[IP] 192.168.1.165 [Port] 0 [Flags] 2 [Guid] 3055620308 [EditorId] 3055620308 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25828]  * "[IP] 10.11.11.3 [Port] 0 [Flags] 2 [Guid] 3055620308 [EditorId] 3055620308 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25828] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25828] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.50f1 (f1ef1dca8bff)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GitHub/WyrmsWake/WyrmsWake/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti SUPER (ID=0x2705)
+    Vendor:   NVIDIA
+    VRAM:     16063 MB
+    Driver:   32.0.15.7688
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002252 seconds.
+- Loaded All Assemblies, in  0.345 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.301 seconds
+Domain Reload Profiling: 644ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (113ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (123ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (301ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (259ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.630 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.604 seconds
+Domain Reload Profiling: 1232ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (131ms)
+			BuildScriptInfoCaches (36ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (605ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (458ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 219 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6084 unused Assets / (6.4 MB). Loaded Objects now: 6759.
+Memory consumption went from 237.5 MB to 231.1 MB.
+Total: 15.623400 ms (FindLiveObjects: 1.173700 ms CreateObjectMapping: 1.122600 ms MarkObjects: 8.402700 ms  DeleteObjects: 4.923800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 93252.822727 seconds.
+  path: Assets/WizardPolyArt/SRP/URP_PA/Materials/PolyArtMaskTint.mat
+  artifactKey: Guid(1107e81623126f8439ae47a87f8dd52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/SRP/URP_PA/Materials/PolyArtMaskTint.mat using Guid(1107e81623126f8439ae47a87f8dd52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56685b927e98e872c77e7594212a0e0d') in 2.2500894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.199819 seconds.
+  path: Assets/WizardPolyArt/Animations/Attack01.fbx
+  artifactKey: Guid(3f2f5660b185f02479d526fb256acbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Animations/Attack01.fbx using Guid(3f2f5660b185f02479d526fb256acbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '921f50d844ca80c35c88cc5eba2cd58d') in 1.7365604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.326313 seconds.
+  path: Assets/WizardPolyArt/Mesh/PolyArtWizardMesh.fbx
+  artifactKey: Guid(bed7a092d53e7c748bd65db98cebf9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/Mesh/PolyArtWizardMesh.fbx using Guid(bed7a092d53e7c748bd65db98cebf9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f1ac10772cf26ad5724932cc2448bb9') in 0.0163132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.104486 seconds.
+  path: Assets/WizardPolyArt/SRP/URP_PA/Prefabs/PolyArtWizardMaskTintMat.prefab
+  artifactKey: Guid(412786880b4548a4d9343dd4b19e0122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/SRP/URP_PA/Prefabs/PolyArtWizardMaskTintMat.prefab using Guid(412786880b4548a4d9343dd4b19e0122) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd203c9dcaec17d26c877e48bc9551ab4') in 0.0337327 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 267
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.455668 seconds.
+  path: Assets/WizardPolyArt/SRP/URP_PA/Materials/PolyArtMaskTint.mat
+  artifactKey: Guid(1107e81623126f8439ae47a87f8dd52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/SRP/URP_PA/Materials/PolyArtMaskTint.mat using Guid(1107e81623126f8439ae47a87f8dd52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1aae74476fe0976ade49839a09c5e7e0') in 0.0072156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.829518 seconds.
+  path: Assets/Kevin Iglesias/Human Character Dummy/Prefabs/HumanDummy_F Blue.prefab
+  artifactKey: Guid(6206c14b6fb53694cb6b0bb8a41fcb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Character Dummy/Prefabs/HumanDummy_F Blue.prefab using Guid(6206c14b6fb53694cb6b0bb8a41fcb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9798e1e6b9412992d696f354f4d36b3') in 0.0314231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 250
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Kevin Iglesias/Human Character Dummy/Prefabs/HumanDummy_M Yellow.prefab
+  artifactKey: Guid(75f582752a9a5774dbabd596a75f7bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Character Dummy/Prefabs/HumanDummy_M Yellow.prefab using Guid(75f582752a9a5774dbabd596a75f7bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2b0c565d42620b1199bab1621b52992') in 0.012989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 250
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Kevin Iglesias/Human Character Dummy/Prefabs/HumanDummy_M Red.prefab
+  artifactKey: Guid(d4c0d7159c5a44b4c9e0b1bb6c221fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Character Dummy/Prefabs/HumanDummy_M Red.prefab using Guid(d4c0d7159c5a44b4c9e0b1bb6c221fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba58d03780b6bfeaba6a0a86f4876373') in 0.0144237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 250
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.826871 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/HumanM@CombatDamage01.fbx
+  artifactKey: Guid(e191b1e6013333f4f8fcf7db4018a4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/HumanM@CombatDamage01.fbx using Guid(e191b1e6013333f4f8fcf7db4018a4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '064ea37b7226de3b13cd6c71e0e2fb2a') in 0.0035157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.496797 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Spellcasting/HumanM@CastingDamage01.fbx
+  artifactKey: Guid(18afe56f6fdf0b0478209f4b1512c8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Spellcasting/HumanM@CastingDamage01.fbx using Guid(18afe56f6fdf0b0478209f4b1512c8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9a86e81869830bd9557a37e6459acb5') in 0.0034077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.670167 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Spellcasting/MagicAttacks/Omnidirectional/HumanM@MagicAttackOmni01.fbx
+  artifactKey: Guid(b98582042c1292a4e81193a2e417a4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Spellcasting/MagicAttacks/Omnidirectional/HumanM@MagicAttackOmni01.fbx using Guid(b98582042c1292a4e81193a2e417a4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce72a7694330afaaa81105e2913f080d') in 0.003296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.208138 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/2H/HumanM@Attack2H01.fbx
+  artifactKey: Guid(a3b2bd75dc433e742844e9c7e0ecb01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/2H/HumanM@Attack2H01.fbx using Guid(a3b2bd75dc433e742844e9c7e0ecb01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b7ace635b036336c34d1d7fa6a539f3') in 0.0037691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.038870 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Shield/HumanM@AttackShield01.fbx
+  artifactKey: Guid(39df77266a31a2547b7cc6c67a54a62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Shield/HumanM@AttackShield01.fbx using Guid(39df77266a31a2547b7cc6c67a54a62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e72c3599c67b9bf54abaca4e9decf49f') in 0.0032913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.793740 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Backward.fbx
+  artifactKey: Guid(f1f1135ca9cfa8c47bf81718bb0d6873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Backward.fbx using Guid(f1f1135ca9cfa8c47bf81718bb0d6873) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bb56fb62bba3dfce639ee0b7146fe5b') in 0.0035169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Left.fbx
+  artifactKey: Guid(b702e254d5e77904da0429cfcbc77709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Left.fbx using Guid(b702e254d5e77904da0429cfcbc77709) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4f6e835fc9ea31fa50d0de6087ccc42') in 0.0033899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
