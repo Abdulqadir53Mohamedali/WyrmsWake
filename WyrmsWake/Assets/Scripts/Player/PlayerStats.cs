@@ -5,8 +5,8 @@ using UnityEngine.UIElements;
 public class PlayerStats : ScriptableObject
 {
     [Header("Movement")]
-    public float walkSpeed = 3.5f;
-    public float runSpeed = 5.5f;
+    public float walkSpeed = 5.5f;
+    public float runSpeed = 8.5f;
 
     [Header("Health")]
     public float maxHealth = 100f;
