@@ -1,16 +1,11 @@
 using UnityEngine;
 
-public class IPredicate : MonoBehaviour
+namespace Game.FSM
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public interface IPredicate
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        bool Evaluate();
     }
 }
+

@@ -1,16 +1,28 @@
 using UnityEngine;
 
-public class IState : MonoBehaviour
+namespace Game.FSM
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public interface IState
     {
-        
-    }
+        void OnEnter()
+        {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        }
+        void OnExit()
+        {
+
+        }
+
+        void Update()
+        {
+
+        }
+
+        void FixedUpdate()
+        {
+
+        }
+    
     }
 }
+
