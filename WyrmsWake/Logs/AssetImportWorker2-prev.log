@@ -1,0 +1,406 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.50f1 (f1ef1dca8bff) revision 15855389'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32682 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-08-22T16:14:33Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.50f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/GitHub/WyrmsWake/WyrmsWake
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+57850
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/GitHub/WyrmsWake/WyrmsWake
+C:/GitHub/WyrmsWake/WyrmsWake
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29148]  Target information:
+
+Player connection [29148]  * "[IP] 192.168.1.165 [Port] 0 [Flags] 2 [Guid] 2188397465 [EditorId] 2188397465 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29148]  * "[IP] 10.14.0.2 [Port] 0 [Flags] 2 [Guid] 2188397465 [EditorId] 2188397465 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29148] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29148] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.50f1 (f1ef1dca8bff)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GitHub/WyrmsWake/WyrmsWake/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti SUPER (ID=0x2705)
+    Vendor:   NVIDIA
+    VRAM:     16063 MB
+    Driver:   32.0.15.7688
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003465 seconds.
+- Loaded All Assemblies, in  0.486 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.359 seconds
+Domain Reload Profiling: 843ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (225ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (134ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (359ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (314ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (172ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.853 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.745 seconds
+Domain Reload Profiling: 1593ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (552ms)
+		LoadAssemblies (382ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (283ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (203ms)
+			BuildScriptInfoCaches (50ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (746ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (556ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6486 unused Assets / (6.7 MB). Loaded Objects now: 7162.
+Memory consumption went from 239.8 MB to 233.1 MB.
+Total: 16.422900 ms (FindLiveObjects: 1.320400 ms CreateObjectMapping: 1.791100 ms MarkObjects: 8.173200 ms  DeleteObjects: 5.137300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 83053.198855 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Power Up.fbx
+  artifactKey: Guid(3a3ef90f00e33f848b4439eb310e1fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Power Up.fbx using Guid(3a3ef90f00e33f848b4439eb310e1fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98cd21591c68c7186c16e915b6cd730f') in 0.9935661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 125
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Impact.fbx
+  artifactKey: Guid(100c33c037bb76c4b85bf58313d20a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Impact.fbx using Guid(100c33c037bb76c4b85bf58313d20a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d0cb34b87e048e24f9dd56de90773e7') in 0.0183779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Casting (1).fbx
+  artifactKey: Guid(9c041bfa7c80f7e4c8f69d22a4ffafda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Casting (1).fbx using Guid(9c041bfa7c80f7e4c8f69d22a4ffafda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2fb2ad653bca67a9e43925bf721e2bd') in 0.0175552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.811183 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Impact (1).fbx
+  artifactKey: Guid(ce6d25873fc65f74e93baf8259684280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Impact (1).fbx using Guid(ce6d25873fc65f74e93baf8259684280) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80851cd026daf6f6d7a066647de4700b') in 0.0183572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.567079 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Block.fbx
+  artifactKey: Guid(20232e3ea51a77741a416115d3dfe627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Block.fbx using Guid(20232e3ea51a77741a416115d3dfe627) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f03da844622c290000d442f4140c3b8') in 0.0205765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Power Up.fbx
+  artifactKey: Guid(3a3ef90f00e33f848b4439eb310e1fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Power Up.fbx using Guid(3a3ef90f00e33f848b4439eb310e1fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96556729d8237bb139d66687cb196cea') in 0.0200576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Impact.fbx
+  artifactKey: Guid(100c33c037bb76c4b85bf58313d20a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Impact.fbx using Guid(100c33c037bb76c4b85bf58313d20a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e32ab4f5020a0cd8d3904055698ff66d') in 0.0166279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Run.fbx
+  artifactKey: Guid(015d25ff13ed7194bb27467a2c74730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Run.fbx using Guid(015d25ff13ed7194bb27467a2c74730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61fc62052a269c6e3db5eb7ff5944fb9') in 0.0186484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.227743 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Block.fbx
+  artifactKey: Guid(20232e3ea51a77741a416115d3dfe627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Block.fbx using Guid(20232e3ea51a77741a416115d3dfe627) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb3ed13b780c2c69a42d5927fee344da') in 0.0952216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.828550 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Casting.fbx
+  artifactKey: Guid(f2e0a27df4015124cbafc5cf57cf6384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Casting.fbx using Guid(f2e0a27df4015124cbafc5cf57cf6384) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbe1c97c10ef35b94fde26eff5d225dd') in 0.0149936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.132078 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Casting (1).fbx
+  artifactKey: Guid(9c041bfa7c80f7e4c8f69d22a4ffafda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Casting (1).fbx using Guid(9c041bfa7c80f7e4c8f69d22a4ffafda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5919bde01ae7804633e73953764761af') in 0.0213435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.921640 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Crouching.fbx
+  artifactKey: Guid(243f5432ee0b89c47bc5ebbd88757ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Crouching.fbx using Guid(243f5432ee0b89c47bc5ebbd88757ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '188f67d42deb6917f84c4d3a5a2efdee') in 0.0374735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.534800 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Death.fbx
+  artifactKey: Guid(e818ab51fc76f384296d90baea397a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Death.fbx using Guid(e818ab51fc76f384296d90baea397a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fecdc86fb64e3a5c262d7bfb54e86354') in 0.0382052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.554593 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Impact.fbx
+  artifactKey: Guid(100c33c037bb76c4b85bf58313d20a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Impact.fbx using Guid(100c33c037bb76c4b85bf58313d20a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5afbc9dd9dec376803b37b8e04190c00') in 0.0624284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.589473 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Impact (1).fbx
+  artifactKey: Guid(ce6d25873fc65f74e93baf8259684280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Impact (1).fbx using Guid(ce6d25873fc65f74e93baf8259684280) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b66914b289abc142d11d2072146fb99') in 0.0348314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.636794 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Jump.fbx
+  artifactKey: Guid(5c34aed479d40a346850b1d0f9bee81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Jump.fbx using Guid(5c34aed479d40a346850b1d0f9bee81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a1fc5379036791e3b3708202c6a349b') in 0.0365858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.984514 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Kick.fbx
+  artifactKey: Guid(3fb7296f1e1920f4d81848d7fb0c8424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Kick.fbx using Guid(3fb7296f1e1920f4d81848d7fb0c8424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dbb5b0c50c4b54d675e3a2771c7fa92') in 0.1072037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.616557 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Power Up.fbx
+  artifactKey: Guid(3a3ef90f00e33f848b4439eb310e1fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Power Up.fbx using Guid(3a3ef90f00e33f848b4439eb310e1fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd8ab9ddf4d6bcde2df506658dc507bc') in 0.0149773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.629416 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Run.fbx
+  artifactKey: Guid(015d25ff13ed7194bb27467a2c74730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Run.fbx using Guid(015d25ff13ed7194bb27467a2c74730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ebb46a2843597b59046cf1e0cca5a0f') in 0.0210328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.774452 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Slash (1).fbx
+  artifactKey: Guid(bc6965a47e3714b418e8cb0aeea967b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Slash (1).fbx using Guid(bc6965a47e3714b418e8cb0aeea967b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8a3dd2da52fb701c11b15cfbb7d4a89') in 0.0274885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.966553 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Slash (2).fbx
+  artifactKey: Guid(c0826127a9633ee4a95af45921fb0cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Slash (2).fbx using Guid(c0826127a9633ee4a95af45921fb0cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67040c2a1abb8a09b65adc355c0a30b5') in 0.0974117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.603616 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Slash (3).fbx
+  artifactKey: Guid(55c37e42169063d498b5a8b2487a1efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Slash (3).fbx using Guid(55c37e42169063d498b5a8b2487a1efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f469f94dd1c42f9126a87ff85d25710') in 0.0317171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.717534 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Slash (4).fbx
+  artifactKey: Guid(8963b41025fbc1246b86d9042c1c7dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Slash (4).fbx using Guid(8963b41025fbc1246b86d9042c1c7dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a88b8aa77cbef51b26b295c21281886c') in 0.0418498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 174.222226 seconds.
+  path: Assets/Sword & Shield pack 2/Sword And Shield Casting.anim
+  artifactKey: Guid(7f915c5f81ffcae49af7321e9ae94f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/Sword And Shield Casting.anim using Guid(7f915c5f81ffcae49af7321e9ae94f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d26a30822eb94c4b057168797401918') in 0.0091376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 319.673582 seconds.
+  path: Assets/Sword & Shield pack 2/Sword And Shield Run.anim
+  artifactKey: Guid(9788da5887d57de4bb4d2dcccd82323a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/Sword And Shield Run.anim using Guid(9788da5887d57de4bb4d2dcccd82323a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62b54fca146f9c4880141823b7c4f6ae') in 0.0091886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.728201 seconds.
+  path: Assets/Animator Controllers/Player.controller
+  artifactKey: Guid(270f76eefcfb5c145a33826124fa4077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator Controllers/Player.controller using Guid(270f76eefcfb5c145a33826124fa4077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b33d3a26c609559aded4f4346c5d209a') in 0.1960815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
+
