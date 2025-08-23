@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.50f1 (f1ef1dca8bff) revision 15855389'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32682 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-08-22T16:30:56Z
+Date: 2025-08-23T11:52:29Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.50f1\Editor\Unity.exe
@@ -16,7 +16,7 @@ C:/GitHub/WyrmsWake/WyrmsWake
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62167
+63832
 -job-worker-count
 7
 -background-job-worker-count
@@ -60,14 +60,16 @@ C:/GitHub/WyrmsWake/WyrmsWake
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29656]  Target information:
+Player connection [15876]  Target information:
 
-Player connection [29656]  * "[IP] 192.168.1.165 [Port] 0 [Flags] 2 [Guid] 3651731105 [EditorId] 3651731105 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15876]  * "[IP] 192.168.1.165 [Port] 0 [Flags] 2 [Guid] 2186663909 [EditorId] 2186663909 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29656]  * "[IP] 10.14.0.2 [Port] 0 [Flags] 2 [Guid] 3651731105 [EditorId] 3651731105 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15876]  * "[IP] 10.14.0.2 [Port] 0 [Flags] 2 [Guid] 2186663909 [EditorId] 2186663909 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29656] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [29656] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15876]  * "[IP] 192.168.0.81 [Port] 0 [Flags] 2 [Guid] 2186663909 [EditorId] 2186663909 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15876] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15876] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +81,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.50f1 (f1ef1dca8bff)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/Resources/UnitySubsystems
@@ -95,43 +97,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002480 seconds.
-- Loaded All Assemblies, in  0.331 seconds
+Registered in 0.002138 seconds.
+- Loaded All Assemblies, in  0.322 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.293 seconds
-Domain Reload Profiling: 623ms
-	BeginReloadAssembly (112ms)
+- Finished resetting the current domain, in  0.267 seconds
+Domain Reload Profiling: 587ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (132ms)
-		LoadAssemblies (110ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (107ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (129ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (114ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (115ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (293ms)
+	FinalizeReload (267ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (255ms)
+		SetupLoadedEditorAssemblies (241ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (131ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,11 +145,11 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.700 seconds
+- Loaded All Assemblies, in  0.696 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
@@ -155,60 +157,92 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.696 seconds
-Domain Reload Profiling: 1393ms
-	BeginReloadAssembly (168ms)
+- Finished resetting the current domain, in  0.693 seconds
+Domain Reload Profiling: 1385ms
+	BeginReloadAssembly (153ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (449ms)
-		LoadAssemblies (306ms)
+	LoadAllAssembliesAndSetupDomain (461ms)
+		LoadAssemblies (312ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (233ms)
-			TypeCache.Refresh (171ms)
-				TypeCache.ScanAssembly (156ms)
-			BuildScriptInfoCaches (45ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (696ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (161ms)
+			BuildScriptInfoCaches (43ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (694ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (531ms)
+		SetupLoadedEditorAssemblies (508ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (360ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6486 unused Assets / (6.9 MB). Loaded Objects now: 7162.
-Memory consumption went from 239.7 MB to 232.8 MB.
-Total: 17.879700 ms (FindLiveObjects: 2.705300 ms CreateObjectMapping: 1.340200 ms MarkObjects: 8.283700 ms  DeleteObjects: 5.549800 ms)
+Unloading 6486 unused Assets / (6.4 MB). Loaded Objects now: 7162.
+Memory consumption went from 241.6 MB to 235.2 MB.
+Total: 14.509900 ms (FindLiveObjects: 1.168400 ms CreateObjectMapping: 1.481300 ms MarkObjects: 7.337700 ms  DeleteObjects: 4.521900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 84048.181167 seconds.
-  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Crouch.fbx
-  artifactKey: Guid(253fc2d646c79004392e2352ba89682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Crouch.fbx using Guid(253fc2d646c79004392e2352ba89682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '599ba6011e3d65262bdda6e6cdbdb0c8') in 0.4615928 seconds
+  Time since last request: 154025.530209 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Run.fbx
+  artifactKey: Guid(015d25ff13ed7194bb27467a2c74730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Run.fbx using Guid(015d25ff13ed7194bb27467a2c74730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de33d871d4a4580f4b318ca43afd21c4') in 0.4615307 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 125
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.745352 seconds.
-  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Crouch.fbx
-  artifactKey: Guid(253fc2d646c79004392e2352ba89682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Crouch.fbx using Guid(253fc2d646c79004392e2352ba89682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '037e32c9cd6ce39ceb1fa26dea658cc7') in 0.0210651 seconds
+  Time since last request: 896.975325 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Run (1).fbx
+  artifactKey: Guid(5c829bb8ce9dcb4448efcbc12202467d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Run (1).fbx using Guid(5c829bb8ce9dcb4448efcbc12202467d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62a30fa87dabafed8bd07913ff2747df') in 0.0188143 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.962320 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Run (1) 1.fbx
+  artifactKey: Guid(7e5e0178a3b03e647b32c1240d8a9c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Run (1) 1.fbx using Guid(7e5e0178a3b03e647b32c1240d8a9c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '761712b3662c7798e17c9f1769fc6add') in 0.0184708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.117347 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Run (1).fbx
+  artifactKey: Guid(5c829bb8ce9dcb4448efcbc12202467d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Run (1).fbx using Guid(5c829bb8ce9dcb4448efcbc12202467d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '979de059b5a12fffd0f3dd3d2974d54d') in 0.0374418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.325629 seconds.
+  path: Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Run (1).fbx
+  artifactKey: Guid(5c829bb8ce9dcb4448efcbc12202467d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/HumanM_Model@Sword And Shield Run (1).fbx using Guid(5c829bb8ce9dcb4448efcbc12202467d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ff811811e882eaa1b941136e7cc60ed') in 0.0401712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 124
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.525358 seconds.
+  path: Assets/Sword & Shield pack 2/Sword And Shield Run 1.anim
+  artifactKey: Guid(bb9b817104568d449993b76d9d7bf16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sword & Shield pack 2/Sword And Shield Run 1.anim using Guid(bb9b817104568d449993b76d9d7bf16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19b451fe0cbee25a75780c1d24f96cd6') in 0.0065266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 

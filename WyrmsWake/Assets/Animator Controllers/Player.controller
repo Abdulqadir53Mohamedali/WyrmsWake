@@ -312,32 +312,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-3021855813819584799
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sword And Shield Run
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 9788da5887d57de4bb4d2dcccd82323a, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
 --- !u!1102 &-2682255610436593820
 AnimatorState:
   serializedVersion: 6
@@ -463,6 +437,32 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 0c554fe8d0ada9d4bb0ed21cb089ed04, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-37095514248670620
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sword And Shield Run 1
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: bb9b817104568d449993b76d9d7bf16c, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -719,13 +719,13 @@ AnimatorStateMachine:
     m_Position: {x: 40, y: 290, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5408358869100736421}
-    m_Position: {x: 300, y: -360, z: 0}
+    m_Position: {x: 50, y: 530, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 175014156312096270}
-    m_Position: {x: 300, y: -310, z: 0}
+    m_Position: {x: 50, y: 580, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -968212467485114994}
-    m_Position: {x: 300, y: -260, z: 0}
+    m_Position: {x: 50, y: 630, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7879848262121160231}
     m_Position: {x: 830, y: 90, z: 0}
@@ -790,9 +790,6 @@ AnimatorStateMachine:
     m_State: {fileID: -3512129355610360626}
     m_Position: {x: 1110, y: -110, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -3021855813819584799}
-    m_Position: {x: 1150, y: -430, z: 0}
-  - serializedVersion: 1
     m_State: {fileID: 8330846840347330674}
     m_Position: {x: 1150, y: -370, z: 0}
   - serializedVersion: 1
@@ -800,13 +797,13 @@ AnimatorStateMachine:
     m_Position: {x: 1150, y: -310, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1574849322337636719}
-    m_Position: {x: 1150, y: -190, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 7468704897389463568}
-    m_Position: {x: 1150, y: -250, z: 0}
+    m_Position: {x: 1150, y: -240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2088119347864271048}
     m_Position: {x: 1552.875, y: -111.862854, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -37095514248670620}
+    m_Position: {x: 1140, y: -440, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -1098,32 +1095,6 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: fec3b540998467c4b9af7eb41559d3a8, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &7468704897389463568
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sword And Shield Slash 3
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 57cadb0f34274a640b3e7327bca78f82, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
