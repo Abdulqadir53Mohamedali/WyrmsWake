@@ -1,3 +1,4 @@
+using Game.FSM;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -13,12 +14,16 @@ namespace Game.Player
         public float stamina;
         public float walkSpeed;
 
+        public Vector3 targetVel;
+
         [SerializeField] protected bool shouldFacemoveDirection;
 
-        Animator animator;
-        Rigidbody rb;
+        public Animator animator;
+        public Rigidbody rb;
+        public StateMachine stateMachine;
 
         public bool isGrounded;
+        public bool isStrafeWalk = true;
 
         [SerializeField] private Transform cameraTransform;
 
@@ -30,6 +35,8 @@ namespace Game.Player
         //public InputActionReference SprintActionReference;
 
 
+        public LocomotionState locomotionState {get; private set;}
+
         public void Awake()
         {
             health = baseStats.maxHealth;
@@ -38,10 +45,19 @@ namespace Game.Player
 
 
 
-            animator = GetComponent<Animator>();
-            rb = GetComponent<Rigidbody>();
+            animator = this.GetComponent<Animator>();
+            rb = this.GetComponent<Rigidbody>();
+            locomotionState = new LocomotionState(this, animator);
+            stateMachine = new StateMachine();
+
+            Any(locomotionState, new FuncPredicate(() => isStrafeWalk));
+
+            stateMachine.SetState(locomotionState);
+
         }
 
+        void At(IState from,IState to,IPredicate condition) => stateMachine.AddTransition(from, to, condition);
+        void Any(IState from,IPredicate condition) => stateMachine.AddAnyTransition(from,condition);
         public void OnEnable()
         {
             movementActionReference.action.Enable();
@@ -60,7 +76,8 @@ namespace Game.Player
         // Update is called once per frame
         void Update()
         {
-            movementInput = movementActionReference.action.ReadValue<Vector2>();   
+            movementInput = movementActionReference.action.ReadValue<Vector2>();
+            stateMachine.Update();
         }
         public void Walking()
         {
@@ -76,11 +93,11 @@ namespace Game.Player
             Vector3 moveDirection = (right * movementInput.x + forward * movementInput.y).normalized;
 
 
-            Vector3 targetVel = moveDirection * walkSpeed;
+            targetVel = moveDirection * walkSpeed;
             rb.linearVelocity = new Vector3 (targetVel.x, rb.linearVelocity.y, targetVel.z);
             //rb.AddForce(moveDirection * walkSpeed, ForceMode.Acceleration);
 
-            if (shouldFacemoveDirection && moveDirection.sqrMagnitude > 0.001f)
+            if (!isStrafeWalk && moveDirection.sqrMagnitude > 0.001f)
             {
                 Quaternion lookRotation = Quaternion.LookRotation(moveDirection, Vector3.up);
                 transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, 10f * Time.deltaTime);
@@ -93,7 +110,7 @@ namespace Game.Player
         }
         void FixedUpdate()
         {
-            Walking();
+            stateMachine.FixedUpdate(); 
 
 
         }

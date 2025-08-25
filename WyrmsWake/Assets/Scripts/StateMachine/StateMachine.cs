@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Game.FSM
 {
-    public class StateMachine : MonoBehaviour
+    public class StateMachine 
     {
         StateNode current;
 
@@ -49,7 +49,7 @@ namespace Game.FSM
             // ensures current state is set to actual StateNode which is stored in the dicitonary
             current = nodes[state.GetType()];
         }
-        private void SetState(IState state)
+        public void SetState(IState state)
         {
             current = nodes[state.GetType()];
             current.State.OnEnter();
