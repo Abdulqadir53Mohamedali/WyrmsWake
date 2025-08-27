@@ -1024,15 +1024,19 @@ MonoBehaviour:
   health: 0
   stamina: 0
   walkSpeed: 0
+  runSpeed: 0
+  currentSpeed: 0
   targetVel: {x: 0, y: 0, z: 0}
   shouldFacemoveDirection: 1
   animator: {fileID: 0}
   rb: {fileID: 0}
   isGrounded: 0
-  isStrafeWalk: 0
+  isStrafeWalk: 1
+  isSprinting: 0
   cameraTransform: {fileID: 985381142}
   movementInput: {x: 0, y: 0}
-  movementActionReference: {fileID: -1680190386980627800, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  movementActionReference: {fileID: 4617767036535798542, guid: 5a672e926107a7842807b6bed4713c93, type: 3}
+  sprintActionReference: {fileID: 5526550720360962631, guid: 5a672e926107a7842807b6bed4713c93, type: 3}
 --- !u!54 &1202457321
 Rigidbody:
   m_ObjectHideFlags: 0

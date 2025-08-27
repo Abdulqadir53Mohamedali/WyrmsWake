@@ -1,5 +1,6 @@
 using Game.FSM;
 using System.Runtime.CompilerServices;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering.Universal.Internal;
@@ -13,6 +14,8 @@ namespace Game.Player
         public float health;
         public float stamina;
         public float walkSpeed;
+        public float runSpeed;
+        public float currentSpeed;
 
         public Vector3 targetVel;
 
@@ -24,6 +27,7 @@ namespace Game.Player
 
         public bool isGrounded;
         public bool isStrafeWalk = true;
+        public bool isSprinting;
 
         [SerializeField] private Transform cameraTransform;
 
@@ -32,25 +36,31 @@ namespace Game.Player
         public InputActionReference movementActionReference;
         //public InputActionReference JumpActionReference;
         //public InputActionReference CrouchActionReference;
-        //public InputActionReference SprintActionReference;
+        public InputActionReference sprintActionReference;
 
 
         public LocomotionState locomotionState {get; private set;}
+        public RunningState runningState {get; private set;}
 
         public void Awake()
         {
             health = baseStats.maxHealth;
             stamina = baseStats.maxStamina;
             walkSpeed = baseStats.walkSpeed;
+            runSpeed = baseStats.runSpeed;
+            currentSpeed = walkSpeed;
 
 
 
             animator = this.GetComponent<Animator>();
             rb = this.GetComponent<Rigidbody>();
             locomotionState = new LocomotionState(this, animator);
+            runningState = new RunningState(this, animator);
             stateMachine = new StateMachine();
 
-            Any(locomotionState, new FuncPredicate(() => isStrafeWalk));
+            //Any(locomotionState, new FuncPredicate(() => isStrafeWalk && !isSprinting));
+            At(locomotionState,runningState,new FuncPredicate(() => isSprinting));
+            At(runningState, locomotionState, new FuncPredicate(() =>  !isSprinting));
 
             stateMachine.SetState(locomotionState);
 
@@ -61,10 +71,14 @@ namespace Game.Player
         public void OnEnable()
         {
             movementActionReference.action.Enable();
+            sprintActionReference.action.Enable();
         }
         public void OnDisable()
         {
             movementActionReference.action.Disable();
+            sprintActionReference.action.Disable();
+
+
         }
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -77,10 +91,28 @@ namespace Game.Player
         void Update()
         {
             movementInput = movementActionReference.action.ReadValue<Vector2>();
+            bool isSpritningHeld = sprintActionReference.action.IsPressed();
+            // Sprinting = Shift held AND moving forward
+            isSprinting = sprintActionReference.action.IsPressed() && movementInput.y > 0.1f;
+            // If not sprinting, strafe-walk is true
+            isStrafeWalk = !isSprinting;
+
+            currentSpeed = isSprinting ? runSpeed : walkSpeed;
+
             stateMachine.Update();
         }
         public void Walking()
         {
+            //if (isSprinting)
+            //{
+            //    currentSpeed = runSpeed;
+            //}
+            //if (isStrafeWalk)
+            //{
+            //    currentSpeed = walkSpeed;
+            //}
+     
+    
             Vector3 forward = cameraTransform.forward;
             Vector3 right = cameraTransform.right;
 
@@ -92,13 +124,23 @@ namespace Game.Player
 
             Vector3 moveDirection = (right * movementInput.x + forward * movementInput.y).normalized;
 
-
-            targetVel = moveDirection * walkSpeed;
+            
+            targetVel = moveDirection * currentSpeed;
             rb.linearVelocity = new Vector3 (targetVel.x, rb.linearVelocity.y, targetVel.z);
             //rb.AddForce(moveDirection * walkSpeed, ForceMode.Acceleration);
 
-            if (!isStrafeWalk && moveDirection.sqrMagnitude > 0.001f)
+            if ( isStrafeWalk && forward.sqrMagnitude > 0.001f)
             {
+                Quaternion lookRotation = Quaternion.LookRotation(forward, Vector3.up);
+                transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, 10f * Time.deltaTime);
+
+            }
+
+            // should be used for sprinting
+             if (isSprinting && moveDirection.sqrMagnitude > 0.001f)
+            {
+                Debug.Log("Hello");
+
                 Quaternion lookRotation = Quaternion.LookRotation(moveDirection, Vector3.up);
                 transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, 10f * Time.deltaTime);
 

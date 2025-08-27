@@ -1,4 +1,3 @@
-using Game.FSM;
 using UnityEngine;
 using Game.Player;
 using Game.Anim;
@@ -7,9 +6,6 @@ namespace Game.FSM
 {
     public class LocomotionState : BaseState
     {
-
-        //public readonly PlayerController player;
-        //public readonly Animator Animator;
 
 
         public LocomotionState( PlayerController player, Animator animator) : base(player,animator)
@@ -42,7 +38,7 @@ namespace Game.FSM
 
         public override void OnExit()
         {
-
+            player.isStrafeWalk = false;
         }
 
 
