@@ -12,6 +12,7 @@ namespace Game.Anim
         public static readonly int locomotion = Animator.StringToHash("Locomotion state");
         //public static readonly int running = Animator.StringToHash("SwordAndShieldSprint");
         public static readonly int running = Animator.StringToHash("HumanMSprint01Forward");
+        public static readonly int walkingRoll = Animator.StringToHash("StandToRoll");
     }
 }
 

@@ -18,6 +18,10 @@ namespace Game.Player
         public float currentSpeed;
 
         public Vector3 targetVel;
+        
+        private Vector3 deltaTargetPos;
+        private Quaternion deltaTargetRot = Quaternion.identity;
+
 
         [SerializeField] protected bool shouldFacemoveDirection;
 
@@ -28,6 +32,7 @@ namespace Game.Player
         public bool isGrounded;
         public bool isStrafeWalk = true;
         public bool isSprinting;
+        public bool useRootMotion;
 
         [SerializeField] private Transform cameraTransform;
 
@@ -37,10 +42,12 @@ namespace Game.Player
         //public InputActionReference JumpActionReference;
         //public InputActionReference CrouchActionReference;
         public InputActionReference sprintActionReference;
+        public InputActionReference rollActionReference;
 
 
         public LocomotionState locomotionState {get; private set;}
         public RunningState runningState {get; private set;}
+        public WalkingRollState walkRollState {get; private set;}
 
         public void Awake()
         {
@@ -56,9 +63,14 @@ namespace Game.Player
             rb = this.GetComponent<Rigidbody>();
             locomotionState = new LocomotionState(this, animator);
             runningState = new RunningState(this, animator);
+            walkRollState = new WalkingRollState(this, animator);
             stateMachine = new StateMachine();
 
             //Any(locomotionState, new FuncPredicate(() => isStrafeWalk && !isSprinting));
+            At(walkRollState, locomotionState, new FuncPredicate(() => !useRootMotion && isStrafeWalk));
+            At(walkRollState, runningState, new FuncPredicate(() => !useRootMotion && !isStrafeWalk && isSprinting));
+            At(locomotionState, walkRollState, new FuncPredicate(() => useRootMotion && !isSprinting));
+            //Any(walkRollState, new FuncPredicate(() => useRootMotion && !isSprinting));
             At(locomotionState,runningState,new FuncPredicate(() => isSprinting));
             At(runningState, locomotionState, new FuncPredicate(() =>  !isSprinting));
 
@@ -72,11 +84,14 @@ namespace Game.Player
         {
             movementActionReference.action.Enable();
             sprintActionReference.action.Enable();
+            rollActionReference.action.Enable();
         }
         public void OnDisable()
         {
             movementActionReference.action.Disable();
             sprintActionReference.action.Disable();
+            rollActionReference.action.Disable();
+
 
 
         }
@@ -87,11 +102,31 @@ namespace Game.Player
 
         }
 
+        // Called automtically by unity , every anaimtion update
+        private void OnAnimatorMove()
+        {
+            if (!useRootMotion)
+            {
+                deltaTargetPos = Vector3.zero;
+                deltaTargetRot = Quaternion.identity;
+                return;
+            }
+
+            Vector3 delta = animator.deltaPosition;
+
+
+            delta.y = 0f;
+
+            deltaTargetPos = delta;
+            deltaTargetRot = animator.deltaRotation;
+        }
         // Update is called once per frame
         void Update()
         {
             movementInput = movementActionReference.action.ReadValue<Vector2>();
             bool isSpritningHeld = sprintActionReference.action.IsPressed();
+            bool isWalkRoll = rollActionReference.action.IsPressed();
+            useRootMotion = isWalkRoll;
             // Sprinting = Shift held AND moving forward
             isSprinting = sprintActionReference.action.IsPressed() && movementInput.y > 0.1f;
             // If not sprinting, strafe-walk is true
@@ -150,8 +185,23 @@ namespace Game.Player
                 rb.linearVelocity = Vector3.zero;
             }
         }
+        private void RootMotionActive()
+        {
+            if (useRootMotion)
+            {
+
+                rb.MovePosition(rb.position + deltaTargetPos);
+                rb.MoveRotation(deltaTargetRot * rb.rotation);
+
+                deltaTargetPos = Vector3.zero;
+                deltaTargetRot = Quaternion.identity;
+
+                return;
+            }
+        }
         void FixedUpdate()
         {
+            RootMotionActive();
             stateMachine.FixedUpdate(); 
 
 

@@ -1033,10 +1033,12 @@ MonoBehaviour:
   isGrounded: 0
   isStrafeWalk: 1
   isSprinting: 0
+  useRootMotion: 0
   cameraTransform: {fileID: 985381142}
   movementInput: {x: 0, y: 0}
   movementActionReference: {fileID: 4617767036535798542, guid: 5a672e926107a7842807b6bed4713c93, type: 3}
   sprintActionReference: {fileID: 5526550720360962631, guid: 5a672e926107a7842807b6bed4713c93, type: 3}
+  rollActionReference: {fileID: 1268587200812336934, guid: 5a672e926107a7842807b6bed4713c93, type: 3}
 --- !u!54 &1202457321
 Rigidbody:
   m_ObjectHideFlags: 0
