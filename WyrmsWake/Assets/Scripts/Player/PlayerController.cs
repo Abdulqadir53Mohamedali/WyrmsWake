@@ -1,4 +1,6 @@
+using Game.Anim;
 using Game.FSM;
+using System.Collections;
 using System.Runtime.CompilerServices;
 using UnityEditor;
 using UnityEngine;
@@ -11,16 +13,31 @@ namespace Game.Player
     {
         public PlayerStats baseStats;
 
+        [Header("Basic Stats")]
         public float health;
         public float stamina;
         public float walkSpeed;
         public float runSpeed;
         public float currentSpeed;
+        int gravity = 35;
 
+        [Header("Vector & Rotational variables")]
         public Vector3 targetVel;
-        
         private Vector3 deltaTargetPos;
         private Quaternion deltaTargetRot = Quaternion.identity;
+
+        [Header("Dodge")]
+        [SerializeField] AnimationCurve dodgeCurve;
+        float dodgeTimer;
+        public bool canControl = true;
+        public bool isDodging;
+        public float dodgeDistance = 10f; // tune with your curve
+
+
+
+        // tracks how fast player moved up or down. Gravity decreases it over time
+        // clamping prevents unrelaistic fall speeds . ensures smooth falls and jumps
+        float velocityY;
 
 
         [SerializeField] protected bool shouldFacemoveDirection;
@@ -29,15 +46,18 @@ namespace Game.Player
         public Rigidbody rb;
         public StateMachine stateMachine;
 
+        [Header("Boolean Conditions")]
         public bool isGrounded;
         public bool isStrafeWalk = true;
         public bool isSprinting;
         public bool useRootMotion;
+        public bool rollRequested;
 
         [SerializeField] private Transform cameraTransform;
 
         public Vector2 movementInput;
 
+        [Header("Input Actions")]
         public InputActionReference movementActionReference;
         //public InputActionReference JumpActionReference;
         //public InputActionReference CrouchActionReference;
@@ -45,10 +65,66 @@ namespace Game.Player
         public InputActionReference rollActionReference;
 
 
+        [Header("Player States")]
         public LocomotionState locomotionState {get; private set;}
         public RunningState runningState {get; private set;}
         public WalkingRollState walkRollState {get; private set;}
 
+        // Put this helper in your PlayerController class
+        float SampleCurveArea(AnimationCurve curve, float duration, int steps = 60)
+        {
+            float area = 0f;
+            float dt = duration / steps;
+            float t = 0f;
+            for (int i = 0; i < steps; i++)
+            {
+                // trapezoid integration for smoothness
+                float a = curve.Evaluate(t);
+                float b = curve.Evaluate(t + dt);
+                area += (a + b) * 0.5f * dt;
+                t += dt;
+            }
+            return Mathf.Max(0.0001f, area);
+        }
+
+        IEnumerator Dodge()
+        {
+            canControl = false;
+            isDodging = true;
+            float timer = 0f;
+            //float prevAlpha = 0f;
+            float duration = dodgeCurve.keys[dodgeCurve.length - 1].time;
+
+            Vector3 f = cameraTransform.forward; f.y = 0; f.Normalize();
+            Vector3 r = cameraTransform.right; r.y = 0; r.Normalize();
+            Vector3 m = (r * movementInput.x + f * movementInput.y);
+            Vector3 dir = (m.sqrMagnitude > 0.001f) ? m.normalized : transform.forward;
+
+            // Face roll direction & play anim
+            transform.rotation = Quaternion.LookRotation(dir, Vector3.up);
+            animator.CrossFade(PlayerAnimIds.walkingRoll, 0.05f, 0);
+
+            //  Normalize curve so total distance == dodgeDistance
+            float area = SampleCurveArea(dodgeCurve, duration); // seconds * multiplier
+            float speedScale = dodgeDistance / area;            // meters / (multiplied seconds)
+
+            while (timer < duration)
+            {
+                // speed(t) = curve(t) * speedScale
+                float horizSpeed = dodgeCurve.Evaluate(timer) * speedScale; // m/s
+                Vector3 v = dir * horizSpeed;
+                v.y = rb.linearVelocity.y; // preserve gravity
+                rb.linearVelocity = v;
+
+                timer += Time.fixedDeltaTime;
+                yield return new WaitForFixedUpdate();
+            }
+            rb.linearVelocity = new Vector3(0f, rb.linearVelocity.y, 0f);
+            canControl = true;
+            isDodging = false;
+            stateMachine.SetState(isSprinting ? runningState : locomotionState); 
+
+        }
         public void Awake()
         {
             health = baseStats.maxHealth;
@@ -67,10 +143,10 @@ namespace Game.Player
             stateMachine = new StateMachine();
 
             //Any(locomotionState, new FuncPredicate(() => isStrafeWalk && !isSprinting));
-            At(walkRollState, locomotionState, new FuncPredicate(() => !useRootMotion && isStrafeWalk));
-            At(walkRollState, runningState, new FuncPredicate(() => !useRootMotion && !isStrafeWalk && isSprinting));
-            At(locomotionState, walkRollState, new FuncPredicate(() => useRootMotion && !isSprinting));
-            //Any(walkRollState, new FuncPredicate(() => useRootMotion && !isSprinting));
+            //At(walkRollState, locomotionState, new FuncPredicate(() => !rollRequested && isStrafeWalk));
+            //At(walkRollState, runningState, new FuncPredicate(() => !rollRequested && !isStrafeWalk && isSprinting));
+            //At(locomotionState, walkRollState, new FuncPredicate(() => useRootMotion && !isSprinting));
+            //Any(walkRollState, new FuncPredicate(() => rollRequested && !isSprinting));
             At(locomotionState,runningState,new FuncPredicate(() => isSprinting));
             At(runningState, locomotionState, new FuncPredicate(() =>  !isSprinting));
 
@@ -97,36 +173,22 @@ namespace Game.Player
         }
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
-        void Start()
-        {
-
-        }
-
-        // Called automtically by unity , every anaimtion update
-        private void OnAnimatorMove()
-        {
-            if (!useRootMotion)
-            {
-                deltaTargetPos = Vector3.zero;
-                deltaTargetRot = Quaternion.identity;
-                return;
-            }
-
-            Vector3 delta = animator.deltaPosition;
 
 
-            delta.y = 0f;
 
-            deltaTargetPos = delta;
-            deltaTargetRot = animator.deltaRotation;
-        }
         // Update is called once per frame
         void Update()
         {
+            velocityY -= Time.deltaTime * gravity;
+            velocityY = Mathf.Clamp(velocityY, -10, 10);
             movementInput = movementActionReference.action.ReadValue<Vector2>();
             bool isSpritningHeld = sprintActionReference.action.IsPressed();
             bool isWalkRoll = rollActionReference.action.IsPressed();
-            useRootMotion = isWalkRoll;
+
+            if(rollActionReference.action.WasPressedThisFrame() && !isSprinting && canControl)
+            {
+                StartCoroutine(Dodge());
+            }
             // Sprinting = Shift held AND moving forward
             isSprinting = sprintActionReference.action.IsPressed() && movementInput.y > 0.1f;
             // If not sprinting, strafe-walk is true
@@ -138,6 +200,9 @@ namespace Game.Player
         }
         public void Walking()
         {
+            // BLOCK normal movement while dodging
+            if (!canControl || isDodging)
+                return;
             //if (isSprinting)
             //{
             //    currentSpeed = runSpeed;
@@ -146,8 +211,8 @@ namespace Game.Player
             //{
             //    currentSpeed = walkSpeed;
             //}
-     
-    
+
+
             Vector3 forward = cameraTransform.forward;
             Vector3 right = cameraTransform.right;
 
@@ -201,7 +266,6 @@ namespace Game.Player
         }
         void FixedUpdate()
         {
-            RootMotionActive();
             stateMachine.FixedUpdate(); 
 
 

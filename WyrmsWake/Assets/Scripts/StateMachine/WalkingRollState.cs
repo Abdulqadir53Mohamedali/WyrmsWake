@@ -26,7 +26,6 @@ namespace Game.FSM
 
         public override void OnExit()
         {
-            player.useRootMotion = false;
         }
     }
 

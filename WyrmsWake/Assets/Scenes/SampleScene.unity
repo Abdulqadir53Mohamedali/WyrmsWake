@@ -1027,6 +1027,60 @@ MonoBehaviour:
   runSpeed: 0
   currentSpeed: 0
   targetVel: {x: 0, y: 0, z: 0}
+  dodgeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.12
+      value: 1.2
+      inSlope: -1.6379143
+      outSlope: -1.6379143
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.45
+      value: 0.8
+      inSlope: -1.6346182
+      outSlope: -1.6346182
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.05
+      value: 0.4
+      inSlope: -1.4931294
+      outSlope: -1.4931294
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.42
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  canControl: 1
+  isDodging: 0
+  dodgeDistance: 5
   shouldFacemoveDirection: 1
   animator: {fileID: 0}
   rb: {fileID: 0}
@@ -1034,6 +1088,7 @@ MonoBehaviour:
   isStrafeWalk: 1
   isSprinting: 0
   useRootMotion: 0
+  rollRequested: 0
   cameraTransform: {fileID: 985381142}
   movementInput: {x: 0, y: 0}
   movementActionReference: {fileID: 4617767036535798542, guid: 5a672e926107a7842807b6bed4713c93, type: 3}
