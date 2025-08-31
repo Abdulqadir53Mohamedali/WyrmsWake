@@ -1080,7 +1080,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   canControl: 1
   isDodging: 0
-  dodgeDistance: 5
+  dodgeDistance: 6
   shouldFacemoveDirection: 1
   animator: {fileID: 0}
   rb: {fileID: 0}

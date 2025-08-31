@@ -31,7 +31,7 @@ namespace Game.Player
         float dodgeTimer;
         public bool canControl = true;
         public bool isDodging;
-        public float dodgeDistance = 10f; // tune with your curve
+        public float dodgeDistance = 15f; // tune with your curve
 
 
 
@@ -70,23 +70,36 @@ namespace Game.Player
         public RunningState runningState {get; private set;}
         public WalkingRollState walkRollState {get; private set;}
 
-        // Put this helper in your PlayerController class
+
+        /// <summary>
+        /// Obtains the total area under the curve
+        /// </summary>
+        /// <param name="curve"> Actual aniamtion curve object we read / feed the function to be used</param>
+        /// <param name="duration"> Total Duration of the AniamtionCurve , clip</param>
+        /// <param name="steps">Number of slices / chunks the ACurve is cut in to </param>
+        /// <returns></returns>
         float SampleCurveArea(AnimationCurve curve, float duration, int steps = 60)
         {
             float area = 0f;
+            // splits curve in to chunks / holds current chunk to a certain degree
             float dt = duration / steps;
+            // index of slice we are on
             float t = 0f;
             for (int i = 0; i < steps; i++)
             {
-                // trapezoid integration for smoothness
-                float a = curve.Evaluate(t);
-                float b = curve.Evaluate(t + dt);
+                // obtains value of curve at point in time specified
+                float a = curve.Evaluate(t);// left edge
+                float b = curve.Evaluate(t + dt); // right edge 
                 area += (a + b) * 0.5f * dt;
-                t += dt;
+                t += dt; // slide to the next slice
             }
             return Mathf.Max(0.0001f, area);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         IEnumerator Dodge()
         {
             canControl = false;
