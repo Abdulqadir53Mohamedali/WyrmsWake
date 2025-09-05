@@ -240,6 +240,7 @@ namespace Game.Player
             
             targetVel = moveDirection * currentSpeed;
             rb.linearVelocity = new Vector3 (targetVel.x, rb.linearVelocity.y, targetVel.z);
+            //rb.AddForce(targetVel, ForceMode.Acceleration);
             //rb.AddForce(moveDirection * walkSpeed, ForceMode.Acceleration);
 
             if ( isStrafeWalk && forward.sqrMagnitude > 0.001f)
