@@ -1,7 +1,9 @@
 using Game.Anim;
 using Game.FSM;
 using System.Collections;
+using System.Diagnostics.Contracts;
 using System.Runtime.CompilerServices;
+using Unity.Cinemachine;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -33,13 +35,75 @@ namespace Game.Player
         public bool isDodging;
         public float dodgeDistance = 15f; // tune with your curve
 
-
-
         // tracks how fast player moved up or down. Gravity decreases it over time
         // clamping prevents unrelaistic fall speeds . ensures smooth falls and jumps
         float velocityY;
 
+        [Header("Player Equip")]
+        public GameObject mainSword;
+        public GameObject swordOnShoulder;
 
+        public bool isEquipped;
+        public bool isEquipping;
+
+        [Header("Attack Combo 1")]
+        private float attackWindowReset = 1.5f;
+        private float lastInputTime = 0f;
+        private int comboIndex = 0;
+
+        private void OnRightClick(InputAction.CallbackContext ctx)
+        {
+            Debug.Log("Made it to combo start");
+
+            TryCombo(2);
+
+        }
+        private void OnLeftClick(InputAction.CallbackContext ctx)
+        {
+            Debug.Log("Made it to combo start");
+
+            TryCombo(1);
+        }
+        public void TryCombo(int attack)
+        {
+            Debug.Log("Made it to combo start");
+            if(Time.time - lastInputTime  > attackWindowReset)
+            {
+                ResetAttacks();
+            }
+
+            lastInputTime = Time.time;
+            comboIndex++;
+            
+            if (attack ==1 && comboIndex == 1)
+            {
+                animator.SetInteger("ComboIndex", comboIndex);
+                animator.SetTrigger("Attack");
+            }
+            else if (attack ==1 && comboIndex == 2)
+            {
+                animator.SetInteger("ComboIndex", comboIndex);
+                animator.SetTrigger("Attack");
+            }
+            else if (attack ==2 && comboIndex == 3)
+            {
+                animator.SetInteger("ComboIndex", comboIndex);
+                animator.SetTrigger("Attack");
+            }
+
+            else
+            {
+                ResetAttacks();
+            }
+        }
+
+
+        // Placed via anaimtion event in all attacks 
+        public void ResetAttacks()
+        {
+            comboIndex = 0;
+            animator.SetInteger("ComboIndex", comboIndex);
+        }
         [SerializeField] protected bool shouldFacemoveDirection;
 
         public Animator animator;
@@ -63,12 +127,56 @@ namespace Game.Player
         //public InputActionReference CrouchActionReference;
         public InputActionReference sprintActionReference;
         public InputActionReference rollActionReference;
+        public InputActionReference equipActionReference;
+        public InputActionReference slashActionReferecne;
+        public InputActionReference spellActionRefercne;
 
 
         [Header("Player States")]
-        public LocomotionState locomotionState {get; private set;}
-        public RunningState runningState {get; private set;}
-        public WalkingRollState walkRollState {get; private set;}
+        public LocomotionState locomotionState { get; private set; }
+        public RunningState runningState { get; private set; }
+        public WalkingRollState walkRollState { get; private set; }
+
+
+
+
+        private void Equip()
+        {
+            if (equipActionReference.action.IsPressed())
+            {
+                isEquipping = true;
+                animator.SetTrigger("Equip");
+                canControl = false;
+                
+            }
+        }
+
+        public void ActiveSword()
+        {
+            if (!isEquipped)
+            {
+                mainSword.SetActive(true);
+                swordOnShoulder.SetActive(false);
+                isEquipped = !isEquipped;
+                
+            }
+
+            else
+            {
+                mainSword.SetActive(false);
+                swordOnShoulder.SetActive(true);
+                isEquipped= !isEquipped;
+            }
+          
+        }
+        public void Equipped()
+        {
+            isEquipping= false;
+            canControl = true;
+        }
+        
+
+        
 
 
         /// <summary>
@@ -129,6 +237,7 @@ namespace Game.Player
                 v.y = rb.linearVelocity.y; // preserve gravity
                 rb.linearVelocity = v;
 
+                
                 timer += Time.fixedDeltaTime;
                 yield return new WaitForFixedUpdate();
             }
@@ -174,12 +283,23 @@ namespace Game.Player
             movementActionReference.action.Enable();
             sprintActionReference.action.Enable();
             rollActionReference.action.Enable();
+            equipActionReference.action.Enable();
+            slashActionReferecne.action.Enable();
+            spellActionRefercne.action.Enable();
+            slashActionReferecne.action.performed += OnLeftClick;
+            spellActionRefercne.action.performed += OnRightClick;
+            
         }
         public void OnDisable()
         {
             movementActionReference.action.Disable();
             sprintActionReference.action.Disable();
             rollActionReference.action.Disable();
+            equipActionReference.action.Disable();
+            slashActionReferecne.action.Disable();
+            spellActionRefercne.action.Disable();
+            slashActionReferecne.action.performed -= OnLeftClick;
+            spellActionRefercne.action.performed -= OnRightClick;   
 
 
 
@@ -192,13 +312,19 @@ namespace Game.Player
         // Update is called once per frame
         void Update()
         {
+            if(comboIndex > 0 && Time.time - lastInputTime > attackWindowReset)
+            {
+                ResetAttacks();
+            }
             velocityY -= Time.deltaTime * gravity;
             velocityY = Mathf.Clamp(velocityY, -10, 10);
             movementInput = movementActionReference.action.ReadValue<Vector2>();
             bool isSpritningHeld = sprintActionReference.action.IsPressed();
             bool isWalkRoll = rollActionReference.action.IsPressed();
 
-            if(rollActionReference.action.WasPressedThisFrame() && !isSprinting && canControl)
+            Equip();
+            
+            if (rollActionReference.action.WasPressedThisFrame() && !isSprinting && canControl)
             {
                 StartCoroutine(Dodge());
             }
@@ -214,7 +340,7 @@ namespace Game.Player
         public void Walking()
         {
             // BLOCK normal movement while dodging
-            if (!canControl || isDodging)
+            if (!canControl || isDodging )
                 return;
             //if (isSprinting)
             //{
@@ -246,7 +372,7 @@ namespace Game.Player
             if ( isStrafeWalk && forward.sqrMagnitude > 0.001f)
             {
                 Quaternion lookRotation = Quaternion.LookRotation(forward, Vector3.up);
-                transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, 10f * Time.deltaTime);
+                 transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, 10f * Time.deltaTime);
 
             }
 
@@ -264,20 +390,7 @@ namespace Game.Player
                 rb.linearVelocity = Vector3.zero;
             }
         }
-        private void RootMotionActive()
-        {
-            if (useRootMotion)
-            {
 
-                rb.MovePosition(rb.position + deltaTargetPos);
-                rb.MoveRotation(deltaTargetRot * rb.rotation);
-
-                deltaTargetPos = Vector3.zero;
-                deltaTargetRot = Quaternion.identity;
-
-                return;
-            }
-        }
         void FixedUpdate()
         {
             stateMachine.FixedUpdate(); 

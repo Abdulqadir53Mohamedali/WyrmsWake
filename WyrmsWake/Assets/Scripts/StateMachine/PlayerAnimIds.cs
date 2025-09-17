@@ -13,6 +13,7 @@ namespace Game.Anim
         //public static readonly int running = Animator.StringToHash("SwordAndShieldSprint");
         public static readonly int running = Animator.StringToHash("HumanMSprint01Forward");
         public static readonly int walkingRoll = Animator.StringToHash("StandToRoll");
+        public static readonly int weaponEquip = Animator.StringToHash("Unarmed Equip Over Shoulder 1");
     }
 }
 
