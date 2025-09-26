@@ -85,7 +85,7 @@ Material:
     - _OuterChlothes: {r: 0.6035535, g: 0.18396229, b: 1, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &5985727876727810788
+--- !u!114 &7472241587233334840
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

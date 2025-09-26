@@ -1,0 +1,8 @@
+here are some details about the animations in the .fbx file:
+
+Frames			Animation
+1-40			Walk cycle
+41-61			get in shooting position
+63-71			fire
+71-91			get back from shooting position
+91-121			bite attacka

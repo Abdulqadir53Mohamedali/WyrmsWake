@@ -1,0 +1,6 @@
+here are some details about the animations in the .fbx file:
+
+Frames			Animation
+1-28			Walk cycle
+31-56			bite attack
+56-76			take damage

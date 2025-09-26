@@ -192,7 +192,7 @@
                 {
                     "name": "",
                     "id": "35d02161-2a06-411a-9563-619b74854926",
-                    "path": "<Keyboard>/1",
+                    "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -203,7 +203,7 @@
                 {
                     "name": "",
                     "id": "5558dfd8-ef7c-4213-b604-8e943fecd8b7",
-                    "path": "<Keyboard>/2",
+                    "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
