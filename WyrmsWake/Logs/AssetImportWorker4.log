@@ -1,0 +1,1190 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.50f1 (f1ef1dca8bff) revision 15855389'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32682 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-09-27T02:08:15Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.50f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/GitHub/WyrmsWake/WyrmsWake
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+49191
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/GitHub/WyrmsWake/WyrmsWake
+C:/GitHub/WyrmsWake/WyrmsWake
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [39984]  Target information:
+
+Player connection [39984]  * "[IP] 10.14.0.2 [Port] 0 [Flags] 2 [Guid] 3254080674 [EditorId] 3254080674 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [39984]  * "[IP] 192.168.0.26 [Port] 0 [Flags] 2 [Guid] 3254080674 [EditorId] 3254080674 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [39984] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [39984] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.50f1 (f1ef1dca8bff)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GitHub/WyrmsWake/WyrmsWake/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti SUPER (ID=0x2705)
+    Vendor:   NVIDIA
+    VRAM:     16063 MB
+    Driver:   32.0.15.7688
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002922 seconds.
+- Loaded All Assemblies, in  0.344 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.297 seconds
+Domain Reload Profiling: 639ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (117ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (298ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (254ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.705 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.721 seconds
+Domain Reload Profiling: 1423ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (460ms)
+		LoadAssemblies (311ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (165ms)
+			BuildScriptInfoCaches (49ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (722ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (546ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (366ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7122 unused Assets / (7.1 MB). Loaded Objects now: 7884.
+Memory consumption went from 277.4 MB to 270.3 MB.
+Total: 15.099400 ms (FindLiveObjects: 1.436200 ms CreateObjectMapping: 0.735200 ms MarkObjects: 8.264200 ms  DeleteObjects: 4.663000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 477776.796935 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Textures/IceGrey.png
+  artifactKey: Guid(2a1bcd71cf85fdc4e8c0def85e4f5d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Textures/IceGrey.png using Guid(2a1bcd71cf85fdc4e8c0def85e4f5d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '478d8c58d0c2bb04fb7745ae8b49c367') in 0.0587354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Stylized Fantasy Weapons Pack – Free Edition/Textures/ImphenziaPixPal_Emission.png
+  artifactKey: Guid(c0e4ffb46fe072f4f9bb949259419381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Fantasy Weapons Pack – Free Edition/Textures/ImphenziaPixPal_Emission.png using Guid(c0e4ffb46fe072f4f9bb949259419381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afc6e14288bc175ee6653828981b74b1') in 0.0053951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Stylized Fantasy Weapons Pack – Free Edition/Textures/ImphenziaPixPal_BaseColor.png
+  artifactKey: Guid(305e9b4e4981d6e4c818637f196761c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Fantasy Weapons Pack – Free Edition/Textures/ImphenziaPixPal_BaseColor.png using Guid(305e9b4e4981d6e4c818637f196761c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82397875dd4f2fcc1352673179508a4d') in 0.005316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.118970 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Textures/LargeFlame01.tif
+  artifactKey: Guid(a0a243891db69d743aa08a4066effb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Textures/LargeFlame01.tif using Guid(a0a243891db69d743aa08a4066effb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a09d353fe87ac6f0b3a38d36de000b92') in 0.0141625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003422 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2318a449fc6cb6b15886038dd761a729') in 0.4805796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Demo scene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(4a3abcea8684f464a9b302dd7a047387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Demo scene/Lightmap-0_comp_dir.png using Guid(4a3abcea8684f464a9b302dd7a047387) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '768e3365a8d65216aefedbcc0faceaeb') in 0.006285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.353033 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Scenes/Main Scene with Legacy Particles/Lightmap-1_comp_dir.png
+  artifactKey: Guid(b94ba60cc44553342b313aa65a4e2e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Scenes/Main Scene with Legacy Particles/Lightmap-1_comp_dir.png using Guid(b94ba60cc44553342b313aa65a4e2e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc99fd2b4021d05a429f5eeca3d6ad08') in 0.0083471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001863 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Scenes/Main Scene with Legacy Particles/Lightmap-2_comp_dir.png
+  artifactKey: Guid(9e3c0a69193724344afff5fb1e25684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Scenes/Main Scene with Legacy Particles/Lightmap-2_comp_dir.png using Guid(9e3c0a69193724344afff5fb1e25684f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4242768460de4a3f449823a6434bc387') in 0.0080995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.311250 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Textures/Lightning.tif
+  artifactKey: Guid(92781d74b982d084ca9223b02d2cae11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Textures/Lightning.tif using Guid(92781d74b982d084ca9223b02d2cae11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a8ec4bd6954c5ff0313705132c90000') in 0.0068043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/MagicCircle2.png
+  artifactKey: Guid(5a6bd793e147ac64e98bf339553fd728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/MagicCircle2.png using Guid(5a6bd793e147ac64e98bf339553fd728) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '272a81d3cd92c7e41fb9aef9786d7868') in 0.0069275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.228834 seconds.
+  path: Assets/TSF assets/arena/pipes1/main pipes_ao.tga
+  artifactKey: Guid(d6ba3be564a35bf4c9a269c3188a925e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/pipes1/main pipes_ao.tga using Guid(d6ba3be564a35bf4c9a269c3188a925e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7caeaae61bbbcde28c60d5d35a370f95') in 0.0096819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TSF assets/arena/pipes1/main pipes_Metalness.tga
+  artifactKey: Guid(1ab036a1d4059be44b633c7657e16218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/pipes1/main pipes_Metalness.tga using Guid(1ab036a1d4059be44b633c7657e16218) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea6c808b7d23d8a06bfe2a72656a78ec') in 0.0083433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/TSF assets/arena/main platform/main platform_ao.tga
+  artifactKey: Guid(de67bc52644556c41b967e59f439074d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/main platform/main platform_ao.tga using Guid(de67bc52644556c41b967e59f439074d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9a0a40d858c1c6c829032aaa104188c') in 0.0099599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.163307 seconds.
+  path: Assets/TSF assets/arena/main platform/main platform_BaseColor.tga
+  artifactKey: Guid(1a3a90e89c768974fa07b51887837231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/main platform/main platform_BaseColor.tga using Guid(1a3a90e89c768974fa07b51887837231) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9575ab6d086d688117b0c7bfa69c544a') in 0.0078327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007815 seconds.
+  path: Assets/TSF assets/arena/main platform/main platform_Normal.tga
+  artifactKey: Guid(f434eea19e9f02241ae662b3b302f55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/main platform/main platform_Normal.tga using Guid(f434eea19e9f02241ae662b3b302f55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bdba70d75b6b8f9a614da57c9fdb37e') in 0.0071661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005735 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Mask1.png
+  artifactKey: Guid(c829f3f833484ac45b5b9150cb06631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Mask1.png using Guid(c829f3f833484ac45b5b9150cb06631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '009cd2f448bea5978efdcb41453781c4') in 0.0060391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.206210 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Textures/MediumFlame01.tif
+  artifactKey: Guid(1b9340725602e9d40a4e86d4b9dfcb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Textures/MediumFlame01.tif using Guid(1b9340725602e9d40a4e86d4b9dfcb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c5a7df483d606170ecd33f01bcf5bfa') in 0.0088737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Textures/MediumFlame03.tif
+  artifactKey: Guid(8ac487e221970a74fbf27f24086ea441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Textures/MediumFlame03.tif using Guid(8ac487e221970a74fbf27f24086ea441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12dda69dbbed65fe821d1ff79e396917') in 0.0097473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195294 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonNightmare/Albino/Metallic.png
+  artifactKey: Guid(5ca9382be01f8bc45a6aaa3ee852fb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonNightmare/Albino/Metallic.png using Guid(5ca9382be01f8bc45a6aaa3ee852fb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05a3bad4a8441d7f47e1abcf14f09f7b') in 0.0140883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonNightmare/Red/Metallic.png
+  artifactKey: Guid(09cc453e3a8be8b429f8d28d40e0d850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonNightmare/Red/Metallic.png using Guid(09cc453e3a8be8b429f8d28d40e0d850) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7adbf71a2d2c892df85dcc1faeba2b8') in 0.0115901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonUsurper/Albino/MetalSmoothness.png
+  artifactKey: Guid(8eb27f045504083469ec30702ae82adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonUsurper/Albino/MetalSmoothness.png using Guid(8eb27f045504083469ec30702ae82adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c848f51c1e7c597808091ecccf412bf') in 0.0125331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017596 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonUsurper/Blue/MetalSmoothness.png
+  artifactKey: Guid(d3c2135027ea9a64292b4c9d55110312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonUsurper/Blue/MetalSmoothness.png using Guid(d3c2135027ea9a64292b4c9d55110312) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cc80e170ae66bcbce560467e83089aa') in 0.0138579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Textures/MetalTrim_Albedo.tif
+  artifactKey: Guid(7c10f0a67c3c8364eb12dfc8a5e7b54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Textures/MetalTrim_Albedo.tif using Guid(7c10f0a67c3c8364eb12dfc8a5e7b54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b30b17005c6cb9865ee0786b0295409') in 0.0183385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.175609 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Textures/noise.tif
+  artifactKey: Guid(c15eacd99a1861b4a8084a53a657bbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Textures/noise.tif using Guid(c15eacd99a1861b4a8084a53a657bbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a86a22bdfca6ec2d0f57ffda75119999') in 0.0107767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/NamuFX/_SharedAssets/Images/Noise/noise11.png
+  artifactKey: Guid(cb0eab1177b89364a8bb33e97596ca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NamuFX/_SharedAssets/Images/Noise/noise11.png using Guid(cb0eab1177b89364a8bb33e97596ca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b48e51e12cda0ef52f17594af1e27f2') in 0.0090232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonNightmare/Albino/Normal.png
+  artifactKey: Guid(1803ad016e1c2b943b20c775063a8e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonNightmare/Albino/Normal.png using Guid(1803ad016e1c2b943b20c775063a8e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '097edcdac688578334f475104179e79d') in 0.0240197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonSoulEater/purple/Normal.png
+  artifactKey: Guid(9f60d4f108b182844b24440a1ca4af5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonSoulEater/purple/Normal.png using Guid(9f60d4f108b182844b24440a1ca4af5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09fab8893b30c3079be506d53387f5af') in 0.0159175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061104 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonNightmare/Red/Normal.png
+  artifactKey: Guid(5630a966d7ccbc2409852169270d189e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonNightmare/Red/Normal.png using Guid(5630a966d7ccbc2409852169270d189e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f9aebe441a5c3b3f48b874b32f4cfd4') in 0.0174824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Textures/PaintLines_normal.tif
+  artifactKey: Guid(782e7ac390503b248abaa7f49096c6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Textures/PaintLines_normal.tif using Guid(782e7ac390503b248abaa7f49096c6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46bcbed000c983bfb4713beede15f2fa') in 0.0080521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TSF assets/arena/background pipes/pipes back_ao.tga
+  artifactKey: Guid(52d04eb86dc1b5e40ab47dad36477ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/background pipes/pipes back_ao.tga using Guid(52d04eb86dc1b5e40ab47dad36477ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '441f7e6b32a0f44d7976867ba6baf49b') in 0.0093222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.280866 seconds.
+  path: Assets/TSF assets/arena/background pipes/pipes back_Metalness.tga
+  artifactKey: Guid(b6190a286b07c0a41838d96028471335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/background pipes/pipes back_Metalness.tga using Guid(b6190a286b07c0a41838d96028471335) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9bfba1adb6dc4b5374869f1ea56eb9f') in 0.0097847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TSF assets/arena/plaform links/platform links_Metalness.tga
+  artifactKey: Guid(b30b5c1e8cd8fd443bf46afdd5c5204d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/plaform links/platform links_Metalness.tga using Guid(b30b5c1e8cd8fd443bf46afdd5c5204d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cea4254edb245d6de85c99d20d71a383') in 0.0092672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081464 seconds.
+  path: Assets/TSF assets/arena/plaform links/platform links_Normal.tga
+  artifactKey: Guid(92c786f7a3f675b4aae33d58c13096db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/plaform links/platform links_Normal.tga using Guid(92c786f7a3f675b4aae33d58c13096db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '794431f2316cdaf794fc93658e6a9da6') in 0.0072673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Point1.png
+  artifactKey: Guid(640e93060c8b460449dc5d4f16193387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Point1.png using Guid(640e93060c8b460449dc5d4f16193387) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14848bfe42a452158d4e61455b8ee3fa') in 0.0050477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.168867 seconds.
+  path: Assets/WizardPolyArt/SRP/URP_PA/Textures/ForStandardShader/polyArtTex.png
+  artifactKey: Guid(367fb8c3e96202542b61122c3b392cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WizardPolyArt/SRP/URP_PA/Textures/ForStandardShader/polyArtTex.png using Guid(367fb8c3e96202542b61122c3b392cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ed057d39462056ad575d07f0ae47dcf') in 0.0048365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.506804 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/ProjectileFree1.png
+  artifactKey: Guid(8428dffedee005843a727b05c64cb76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/ProjectileFree1.png using Guid(8428dffedee005843a727b05c64cb76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3700b6dc4db37b2a3b9eb67f91fa1b2e') in 0.0067289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025899 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Textures/Ramp01.png
+  artifactKey: Guid(71187563f01d2654d96d736a7c082f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Textures/Ramp01.png using Guid(71187563f01d2654d96d736a7c082f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9426c5c15f712e21e69e9f8a2cc37560') in 0.006687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.221437 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Textures/ramp01.png
+  artifactKey: Guid(99e09a9bd0f10384fa2a3bcbd5c65c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Textures/ramp01.png using Guid(99e09a9bd0f10384fa2a3bcbd5c65c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16ba1988596de29d13f3980cb276e740') in 0.0048429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Textures/Ramp02.png
+  artifactKey: Guid(26534f2d5894add499249fc1b8373a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Textures/Ramp02.png using Guid(26534f2d5894add499249fc1b8373a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2071a9cca558e561fafa75b322c0a1db') in 0.0053176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.389632 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/SmallLight.fbx
+  artifactKey: Guid(7469d4eaf5d47b246b3501c892dd5292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/SmallLight.fbx using Guid(7469d4eaf5d47b246b3501c892dd5292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6ad3dadd324df5c392320b077d6c07d') in 0.0839031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.502393 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/Step.fbx
+  artifactKey: Guid(56419c3da9429f0488c038e5b86ebd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Models/Step.fbx using Guid(56419c3da9429f0488c038e5b86ebd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3035b8de8ce131fbb8ae8168192e132c') in 1.4907694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.025574 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Materials
+  artifactKey: Guid(51ecd5c3ff236ad45a534cf2180c75ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Materials using Guid(51ecd5c3ff236ad45a534cf2180c75ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d4005c7113ad0f78ba6d82eb056c47d') in 0.000644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011285 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Materials/HumanAnimations_Dummy-Orange.mat
+  artifactKey: Guid(df81ddc38bae7e945a835735059fe898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Materials/HumanAnimations_Dummy-Orange.mat using Guid(df81ddc38bae7e945a835735059fe898) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0af4f3921e84569eb40ad47c99e7614') in 0.0067344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Materials/HumanAnimations_Dummy-Red.mat
+  artifactKey: Guid(a701906382a540c4ba0c5ad8559e9a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Materials/HumanAnimations_Dummy-Red.mat using Guid(a701906382a540c4ba0c5ad8559e9a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e593dea5a3b082e7699059cf7d0c05b0') in 0.0063099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.572163 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Textures
+  artifactKey: Guid(9062e0d614ae38b458231f34f36af0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Textures using Guid(9062e0d614ae38b458231f34f36af0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af5cc5bfe94d85ec8793f89f3344664f') in 0.0006141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027282 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Textures/HumanAnimations_ColorPalette.png
+  artifactKey: Guid(2c8e7f499d401414b8215275b03a4c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Textures/HumanAnimations_ColorPalette.png using Guid(2c8e7f499d401414b8215275b03a4c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '444c932396727e84e05b6932c61e19f8') in 0.0057812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.496904 seconds.
+  path: Assets/Stylized Fantasy Weapons Pack – Free Edition/Models/Frostfire_Excalibur.fbx
+  artifactKey: Guid(7af792e53261a9541bf80741fe87ba67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Fantasy Weapons Pack – Free Edition/Models/Frostfire_Excalibur.fbx using Guid(7af792e53261a9541bf80741fe87ba67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '474871d513ebedeec2d0ee65e8016cbc') in 0.0134054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TSF assets/arena/grid floor/grid floor.obj
+  artifactKey: Guid(15fdc37fc531bc44eafe4b49b6279d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/grid floor/grid floor.obj using Guid(15fdc37fc531bc44eafe4b49b6279d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c1d87198a49b75775ff068bc5eefc3c') in 0.0185053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.257773 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Spellcasting Animations/Models/Spells/Human_Spell_Ice.fbx
+  artifactKey: Guid(95d9cf89223364a4486f24af51ce035e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Spellcasting Animations/Models/Spells/Human_Spell_Ice.fbx using Guid(95d9cf89223364a4486f24af51ce035e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0ca3b5b604b7e57fd71962ac33bd0b4') in 0.010292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199567 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Spellcasting Animations/Models/Spells/Human_Spell_Lightning_Ground.fbx
+  artifactKey: Guid(cac54e85c70b81b4686becadc5bf7afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Spellcasting Animations/Models/Spells/Human_Spell_Lightning_Ground.fbx using Guid(cac54e85c70b81b4686becadc5bf7afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05b9566954af4cfc441c26c1de4fe5a6') in 0.0099711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002578 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Spellcasting Animations/Models/Spells/Human_Spell_Shield.fbx
+  artifactKey: Guid(1fdc8d67f1fc8664d814f7d6559a8a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Spellcasting Animations/Models/Spells/Human_Spell_Shield.fbx using Guid(1fdc8d67f1fc8664d814f7d6559a8a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc7b3024fb2d2c82dda2920777ea39ea') in 0.0088511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.495872 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Spellcasting Animations/Models/Spells/Human_Spell_Shockwave_Sphere.fbx
+  artifactKey: Guid(a56e660bb7416074cb07e0d0d7cb3225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Spellcasting Animations/Models/Spells/Human_Spell_Shockwave_Sphere.fbx using Guid(a56e660bb7416074cb07e0d0d7cb3225) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5183186018f7f00397d640e30e767250') in 0.0116208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072502 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Melee Animations/Models/Human_Sword.fbx
+  artifactKey: Guid(d9cb89b0bc352ec4a8a17c56c39dbefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Melee Animations/Models/Human_Sword.fbx using Guid(d9cb89b0bc352ec4a8a17c56c39dbefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64478068c85cc5f3cc016282be836a52') in 0.0085877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.483246 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Legacy Particles/Textures/FlameRoundGreyParticleSheet.tif
+  artifactKey: Guid(aa0907451008d784b8ef5b1c0900465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Legacy Particles/Textures/FlameRoundGreyParticleSheet.tif using Guid(aa0907451008d784b8ef5b1c0900465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0335ab6ddcc74e88d364834cbec957a5') in 0.0081689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Flash.png
+  artifactKey: Guid(497534591604c9c40922a9ea2ef833b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Flash.png using Guid(497534591604c9c40922a9ea2ef833b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '482e3abe9d2a5ba3934889fd6c3f41e7') in 0.0046705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/FlashFree1.png
+  artifactKey: Guid(f87080f1095d1914a8a20d4cb8b07e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/FlashFree1.png using Guid(f87080f1095d1914a8a20d4cb8b07e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76d6fb103cb07da061a9b0178da55d49') in 0.0064818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/FlashFree2.png
+  artifactKey: Guid(58de58939a6067c46bf0e5ddd893bd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/FlashFree2.png using Guid(58de58939a6067c46bf0e5ddd893bd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6437aa97c89aba3f52f92d8670b7dce7') in 0.0052168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.480305 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Textures/FleshBulletHoleNormal.tif
+  artifactKey: Guid(372fe723afe65ed41a5b38da5faf82a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Textures/FleshBulletHoleNormal.tif using Guid(372fe723afe65ed41a5b38da5faf82a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b8c668a260647b1cf232a911f82ff94') in 0.0057821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013415 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2aa69fec7ff5c9f9897ca3148883c4ca') in 0.012715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044697 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Green/ForSP_lambert1_AlbedoTransparency.png
+  artifactKey: Guid(be1de27abacc90f49b532f4fa647221c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Green/ForSP_lambert1_AlbedoTransparency.png using Guid(be1de27abacc90f49b532f4fa647221c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc39d9142f066a11df1e632009ece54a') in 0.0101852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.270579 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_AlbedoTransparency.png
+  artifactKey: Guid(a378078a690b6c140b2487c5a22d50c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Albino/ForSP_lambert1_AlbedoTransparency.png using Guid(a378078a690b6c140b2487c5a22d50c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cd1b1d7434af6032455fd9b8570dc5b') in 0.0111888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014402 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_Emission.png
+  artifactKey: Guid(9a588cc5059a96f40b3478c86f621f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_Emission.png using Guid(9a588cc5059a96f40b3478c86f621f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54053ca0a1f94a79a9fd7f6b0b001d37') in 0.009149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Red/ForSP_lambert1_MetallicSmoothness.png
+  artifactKey: Guid(b7af6640606febe46a6ef6ece48523ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Red/ForSP_lambert1_MetallicSmoothness.png using Guid(b7af6640606febe46a6ef6ece48523ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f13377fe63e040ff6df568855762e954') in 0.0093721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.190164 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_MetallicSmoothness.png
+  artifactKey: Guid(394b0bee2796a9344bc9b4ca37dfdac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_MetallicSmoothness.png using Guid(394b0bee2796a9344bc9b4ca37dfdac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '799524dc095b9eca80deef1bdaad6a39') in 0.009579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Red/ForSP_lambert1_Normal.png
+  artifactKey: Guid(75bd7c524ef90f241ac0abf909679e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Red/ForSP_lambert1_Normal.png using Guid(75bd7c524ef90f241ac0abf909679e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1172f50d248959d1bbacb7c4b3bf975') in 0.0094675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_Normal.png
+  artifactKey: Guid(b30f726ce2c67a74898c265d47e50cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Grey/ForSP_lambert1_Normal.png using Guid(b30f726ce2c67a74898c265d47e50cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97ed6d90a69a9014d8328127d70bf8d1') in 0.0087613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.489479 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/GlowFree1.png
+  artifactKey: Guid(1981381fdd7d3db47b18a6c0fe80ec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/GlowFree1.png using Guid(1981381fdd7d3db47b18a6c0fe80ec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c5ffe71caaa5235ab6dfbeb986659b4') in 0.0053386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018452 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Textures/GoopDropNormals.tif
+  artifactKey: Guid(e2e48048625d63c41a7219b81562326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Textures/GoopDropNormals.tif using Guid(e2e48048625d63c41a7219b81562326d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9e14973135990b9ff32b72ef15e9755') in 0.005246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Textures/GoopPoolNormals.tif
+  artifactKey: Guid(969a5ea5264ae2e4cb261f0dfbdb7877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Textures/GoopPoolNormals.tif using Guid(969a5ea5264ae2e4cb261f0dfbdb7877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f16471297ae39819768fb61881f0866') in 0.0058846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.159886 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Textures/GoopSprayAlbedo.tif
+  artifactKey: Guid(3f4abfb4beaba874db09889251c0f146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Textures/GoopSprayAlbedo.tif using Guid(3f4abfb4beaba874db09889251c0f146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12c76d1c98a4dedfc5e27e4496df30be') in 0.006249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Textures/GoopSprayNormals.tif
+  artifactKey: Guid(d3d3954ad53568b49b1fda6366f2b5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Goop Effects/Textures/GoopSprayNormals.tif using Guid(d3d3954ad53568b49b1fda6366f2b5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4928fce96bafe974d2599289c2244141') in 0.0053061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001877 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Gradient.png
+  artifactKey: Guid(878972c3151f97940b2c53535a0d1ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Gradient.png using Guid(878972c3151f97940b2c53535a0d1ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ade4e866ff69de683248cea03d665c30') in 0.0053565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.188631 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Gradient2.png
+  artifactKey: Guid(2aef00c76b0b12740b0910319f11e6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Gradient2.png using Guid(2aef00c76b0b12740b0910319f11e6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26e8650ff2578f83a006f6f8056012e5') in 0.0052567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/GreenHP.png
+  artifactKey: Guid(4ef9c4d0fc5de6a47a24a3f2185af46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/GreenHP.png using Guid(4ef9c4d0fc5de6a47a24a3f2185af46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00ac7136c669b79b34c91c95c1501a82') in 0.0091577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonNightmare/GreenHP.png
+  artifactKey: Guid(9dba242174cb8a2479a67b286bf5a92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonNightmare/GreenHP.png using Guid(9dba242174cb8a2479a67b286bf5a92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f00c51a7c0297249da1d04dd5075f91d') in 0.0077967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.160863 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonSoulEater/GreyHP.png
+  artifactKey: Guid(cccba017d3327554eb393b69a5434097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonSoulEater/GreyHP.png using Guid(cccba017d3327554eb393b69a5434097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02cbcec558afaa626469afe0d60be2ed') in 0.0098034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TSF assets/arena/grid floor/grid floor_BaseColor.tga
+  artifactKey: Guid(7523effffc7d5e84ba9f8c09fbe5419e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/grid floor/grid floor_BaseColor.tga using Guid(7523effffc7d5e84ba9f8c09fbe5419e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2191a10449637f221af9bc58c264d690') in 0.0084529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TSF assets/arena/grid floor/grid floor_Roughness.tga
+  artifactKey: Guid(6deea730fe97673498cb58c16dd6b99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/grid floor/grid floor_Roughness.tga using Guid(6deea730fe97673498cb58c16dd6b99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a31f32ba7c8a42182d8b776925fa0abb') in 0.0068527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179834 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/TutorialInfo/Icons/Help_Icon.png
+  artifactKey: Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/TutorialInfo/Icons/Help_Icon.png using Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e83ca4d3e0ec474446e9eb8eb01cdac2') in 0.0100679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Textures/HexagonPattern_Normal.tif
+  artifactKey: Guid(930d051a313ae334e9983d501ccce20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Textures/HexagonPattern_Normal.tif using Guid(930d051a313ae334e9983d501ccce20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8de24efbde0b8b621dbb6b4899e61848') in 0.0121165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178472 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Spellcasting Animations/Textures/Human_Spell_Flame_Texture.tga
+  artifactKey: Guid(11a7f899854543a4a9295d1e96db121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Spellcasting Animations/Textures/Human_Spell_Flame_Texture.tga using Guid(11a7f899854543a4a9295d1e96db121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e65a5b25ed8c61d53d0a37d65483e00') in 0.0085995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Spellcasting Animations/Textures/Human_Spell_IceRing_Texture.tga
+  artifactKey: Guid(547ca6153f6ddfd498f87bdf380bba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Spellcasting Animations/Textures/Human_Spell_IceRing_Texture.tga using Guid(547ca6153f6ddfd498f87bdf380bba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30df0647285744a3d0c1e775ad72423b') in 0.0112523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180399 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Spellcasting Animations/Textures/Human_Spell_Shield.png
+  artifactKey: Guid(c951cc0f94d143a4bbd5c58cbcb667ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Spellcasting Animations/Textures/Human_Spell_Shield.png using Guid(c951cc0f94d143a4bbd5c58cbcb667ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c95a547f714fc20ed1340582c2b0d66') in 0.009569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.449284 seconds.
+  path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Spellcasting Animations/Textures/Human_Spell_Smoke_Texture.tga
+  artifactKey: Guid(da56f2e4a74c3b04ab4ac98b78227ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Spellcasting Animations/Textures/Human_Spell_Smoke_Texture.tga using Guid(da56f2e4a74c3b04ab4ac98b78227ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8d40bda093c036b5d722a93a74ac186') in 0.0097797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.236976 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Textures/IceCurvature.tif
+  artifactKey: Guid(8bd3845bbbeebd04b8a19ee995137147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Textures/IceCurvature.tif using Guid(8bd3845bbbeebd04b8a19ee995137147) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a21f21c6dacb96e6d3a7d5675a4b563') in 0.0088791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.155425 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/TutorialInfo/Icons/ReadmeLogo.png
+  artifactKey: Guid(cfa6d60f1f958ba46a105ca98716c259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/TutorialInfo/Icons/ReadmeLogo.png using Guid(cfa6d60f1f958ba46a105ca98716c259) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '226a62f41e157a581f3293a8e1ee5fa2') in 0.0059003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonUsurper/RedHP.png
+  artifactKey: Guid(8afba6e8fe9a67344ab7cb4677d3da0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonUsurper/RedHP.png using Guid(8afba6e8fe9a67344ab7cb4677d3da0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc80f126aa2c861925bcc9c8d5eb4b9a') in 0.0081817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.229849 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/RedHP.png
+  artifactKey: Guid(d39af39ab22387543ad267780dfc7144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/RedHP.png using Guid(d39af39ab22387543ad267780dfc7144) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdb4c24375f735ea1d7dc4e8039b2b55') in 0.0112321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001774 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Scenes/Main Scene with Legacy Particles/ReflectionProbe-1.exr
+  artifactKey: Guid(657ea546cd44cd1439c05ff37e2371d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Scenes/Main Scene with Legacy Particles/ReflectionProbe-1.exr using Guid(657ea546cd44cd1439c05ff37e2371d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be7d907a99e82457173602d51076365b') in 0.0169651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Scenes/Main Scene with Legacy Particles/ReflectionProbe-3.exr
+  artifactKey: Guid(eca4a79fd70009948bbc6fa55ea9e2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Scenes/Main Scene with Legacy Particles/ReflectionProbe-3.exr using Guid(eca4a79fd70009948bbc6fa55ea9e2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dac2ed0e78a2b09045de3d97dc7f56e') in 0.0068118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.490998 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Scenes/Main Scene with Legacy Particles/ReflectionProbe-4.exr
+  artifactKey: Guid(a68e6e8be6819074c9418cb1f1feea0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Scenes/Main Scene with Legacy Particles/ReflectionProbe-4.exr using Guid(a68e6e8be6819074c9418cb1f1feea0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77f2fdde8fffd931be27e0d07974fdd7') in 0.0080295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.386278 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Scenes/Main Scene with Legacy Particles/ReflectionProbe-8.exr
+  artifactKey: Guid(a992f7e0d9c88e440aadebfe20f6e7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Scenes/Main Scene with Legacy Particles/ReflectionProbe-8.exr using Guid(a992f7e0d9c88e440aadebfe20f6e7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '539b104ae2099739fee8b2be95c885ce') in 0.0091523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022448 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Textures/RippleNormal.tif
+  artifactKey: Guid(b31676a3103837945920ebc3cff4e14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Textures/RippleNormal.tif using Guid(b31676a3103837945920ebc3cff4e14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '844049afcc83529607e8162f7ed86231') in 0.0067892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.198005 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Textures/RocksAlbedo.tga
+  artifactKey: Guid(99f701799de29b144b56bd497c187078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Textures/RocksAlbedo.tga using Guid(99f701799de29b144b56bd497c187078) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e275358dadcb62c258a3c950f63ff3af') in 0.0076847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.266874 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Textures/SandDecalAlbedo.tif
+  artifactKey: Guid(03752e2fadc88f145aa5c8fc4f3cd0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Textures/SandDecalAlbedo.tif using Guid(03752e2fadc88f145aa5c8fc4f3cd0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4181d9d339a69c57689533530502e917') in 0.0062928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013441 seconds.
+  path: Assets/TSF assets/arena/second platforms/second platforms_Metalness.tga
+  artifactKey: Guid(123e0c6471e8f944896342f107d6d852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/second platforms/second platforms_Metalness.tga using Guid(123e0c6471e8f944896342f107d6d852) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5ba8df0c27aa59409e79bb439a14650') in 0.0073908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.249908 seconds.
+  path: Assets/TSF assets/arena/second platforms/second platforms_Roughness.tga
+  artifactKey: Guid(1e10069affe029b42929f131d794c2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/second platforms/second platforms_Roughness.tga using Guid(1e10069affe029b42929f131d794c2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74160dc386f098f9bd2f82398a7313bd') in 0.0081092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016190 seconds.
+  path: Assets/Kevin Iglesias/Skeleton Animations/Textures/SkeletonShieldColor.png
+  artifactKey: Guid(6436e258fd7151b4ea6371bafb6554f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Skeleton Animations/Textures/SkeletonShieldColor.png using Guid(6436e258fd7151b4ea6371bafb6554f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4315fdfc7ebe6bc5e6d89f34484ef3ad') in 0.0042208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.210868 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Slash.png
+  artifactKey: Guid(52eef6aa133a854489e620987374b364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Slash.png using Guid(52eef6aa133a854489e620987374b364) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '339f482c586d516ef070892cb61abb4b') in 0.0049405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029768 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Smoke26.png
+  artifactKey: Guid(08b3912bdc0a5ed4d9a27125425a97f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Smoke26.png using Guid(08b3912bdc0a5ed4d9a27125425a97f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b2b84e4f50e287ba1928a1f3c6793c4') in 0.006309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.255243 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Textures/SmokeLoop01.tif
+  artifactKey: Guid(d1b932090277f37428c753cf27824d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Textures/SmokeLoop01.tif using Guid(d1b932090277f37428c753cf27824d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '450b67587ae35d2c3b3915ad707ba137') in 0.0101337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013987 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Textures/SmokePuff.png
+  artifactKey: Guid(c904f5c1f19e8fc42865cf6d70b4fcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Textures/SmokePuff.png using Guid(c904f5c1f19e8fc42865cf6d70b4fcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7299a568b2c28821027b002210e7bb39') in 0.0082361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195503 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Textures/SmokePuff02.png
+  artifactKey: Guid(d3c9883e2f0eef44f9241b6f8428f9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Textures/SmokePuff02.png using Guid(d3c9883e2f0eef44f9241b6f8428f9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e2983609617da374ce1e4ae55a749eb') in 0.0085827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016629 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Textures/SmokePuffNormal.tif
+  artifactKey: Guid(ec0fffbfc1b9f9f4d82b1328a0fa87ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Smoke & Steam Effects/Textures/SmokePuffNormal.tif using Guid(ec0fffbfc1b9f9f4d82b1328a0fa87ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13ffddaf1024445f9d5abe2c6f885da0') in 0.0101772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.259735 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Textures/SparkParticle.tif
+  artifactKey: Guid(2c9ba3deede9b844c84fabc9d8b70c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Textures/SparkParticle.tif using Guid(2c9ba3deede9b844c84fabc9d8b70c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a935063cc84aacc1471f2f0bf44c2120') in 0.0059245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.233536 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonSoulEater/Blue/Specular.png
+  artifactKey: Guid(b4dc54372ed4bf3498a8438d8abcbd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonSoulEater/Blue/Specular.png using Guid(b4dc54372ed4bf3498a8438d8abcbd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b94089d36279a4e9c1a2cb26ecec5d47') in 0.0109342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012504 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Textures/SphereAlbedo.tif
+  artifactKey: Guid(feebd9fe3a61f384286140f9201d038d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Textures/SphereAlbedo.tif using Guid(feebd9fe3a61f384286140f9201d038d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b78cfe3bfa532c836078e0db7f2cab2') in 0.0050334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195251 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Textures/SplashAlbedo.tif
+  artifactKey: Guid(0153ce75dcbf4624d93f11ff5b9882bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Textures/SplashAlbedo.tif using Guid(0153ce75dcbf4624d93f11ff5b9882bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5edca2510f5fccf2b19903eea9536e1d') in 0.00911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Textures/SplashDropNormal.tif
+  artifactKey: Guid(f166adb87ec51544e8173ca8a1b784c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Textures/SplashDropNormal.tif using Guid(f166adb87ec51544e8173ca8a1b784c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03ad6f9feaf4ec965cb5ebbee58c48fe') in 0.0105105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Textures/SplatNormal.tif
+  artifactKey: Guid(0660389cc5a6f4947997407fb6945fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Water Effects/Textures/SplatNormal.tif using Guid(0660389cc5a6f4947997407fb6945fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a32173beae11fba567fb8efa1b5effd') in 0.0058824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.236936 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/CrystalFree1.png
+  artifactKey: Guid(6b54d19079b8ccb4b9407d69baafa2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/CrystalFree1.png using Guid(6b54d19079b8ccb4b9407d69baafa2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '056c21064d0120f2658bf137dd985843') in 0.0059267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.210997 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Crystal1_Base.png
+  artifactKey: Guid(1a465bb53348354419f2e9b3065e16b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Crystal1_Base.png using Guid(1a465bb53348354419f2e9b3065e16b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c01fb48638b7182aefcb5a9b56296bf') in 0.0065316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.361116 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Circle.png
+  artifactKey: Guid(c4cf9c9f7cf52f6409ef75a08a4357ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Circle.png using Guid(c4cf9c9f7cf52f6409ef75a08a4357ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5262fccbb5606245491fb9b51707315') in 0.0054318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Electro.png
+  artifactKey: Guid(ede7b7fc6b09fcc41892be0d6935c8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Electro.png using Guid(ede7b7fc6b09fcc41892be0d6935c8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5d4100f31066fe8a1f9b1bc7012caed') in 0.0064041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/CraterFree1.png
+  artifactKey: Guid(04e275286e81d1b4e9f652ed4612b151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/CraterFree1.png using Guid(04e275286e81d1b4e9f652ed4612b151) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6339df2e349d4de2bbb6bba9233eb09a') in 0.0048939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Crack.png
+  artifactKey: Guid(df140764cd277ab4591e380324386729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Crack.png using Guid(df140764cd277ab4591e380324386729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41ac091c9c92fcc0e5e71399de1340d7') in 0.0052012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 227.836802 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Textures/ConcreteWall_normal.tif
+  artifactKey: Guid(d98cf5219f5996d479964a1074ada90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Textures/ConcreteWall_normal.tif using Guid(d98cf5219f5996d479964a1074ada90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '597877fb4f360193001fd3746bf84dee') in 0.011431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.644023 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Textures/DissolveChunks.tif
+  artifactKey: Guid(fde6fc28f8943fd4aa8bf43327cd0fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Textures/DissolveChunks.tif using Guid(fde6fc28f8943fd4aa8bf43327cd0fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '951e0f1a4433c79568dc3e7bbdceac07') in 0.0083213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.237104 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Textures/DustPuffSmall.png
+  artifactKey: Guid(271edbc011d9e03489f73cef81b2d56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Textures/DustPuffSmall.png using Guid(271edbc011d9e03489f73cef81b2d56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f1f74fbf2561f46b1da963b9e9384e2') in 0.0228471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034320 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Textures/DustPuffSmallParticleSheet.png
+  artifactKey: Guid(32dde075fa5f86d458327a2ac0c4593b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Textures/DustPuffSmallParticleSheet.png using Guid(32dde075fa5f86d458327a2ac0c4593b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04e427c8a19d969f4f14856959e670da') in 0.0129979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.871558 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonUsurper/Albino/Emission.png
+  artifactKey: Guid(569347c461e9fa14c99d282f4ce333ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonUsurper/Albino/Emission.png using Guid(569347c461e9fa14c99d282f4ce333ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c81e0fd1b9dc764db9afb3503eaa3b1') in 0.0081381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010860 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonUsurper/Dark/Emission.png
+  artifactKey: Guid(157a341b0113ac4408df32c0f570c8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonUsurper/Dark/Emission.png using Guid(157a341b0113ac4408df32c0f570c8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67617989126fffbe26208afc7810d5ea') in 0.0068665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046426 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonSoulEater/Red/Emission.png
+  artifactKey: Guid(fea429ad09ce60b499551131d6aebd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonSoulEater/Red/Emission.png using Guid(fea429ad09ce60b499551131d6aebd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b87cc52180f576a5abe7aa7ebbf1a2a') in 0.0083174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.627360 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonSoulEater/green/Emission.png
+  artifactKey: Guid(4d8c700cdf261c4488293282cba6ce2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonSoulEater/green/Emission.png using Guid(4d8c700cdf261c4488293282cba6ce2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f163a70b7989d9318d74765ecc325d5f') in 0.0168525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+

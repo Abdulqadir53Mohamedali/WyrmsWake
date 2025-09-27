@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.50f1 (f1ef1dca8bff) revision 15855389'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32682 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-09-26T18:59:16Z
+Date: 2025-09-26T23:55:18Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.50f1\Editor\Unity.exe
@@ -16,7 +16,7 @@ C:/GitHub/WyrmsWake/WyrmsWake
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57473
+63826
 -job-worker-count
 7
 -background-job-worker-count
@@ -60,14 +60,14 @@ C:/GitHub/WyrmsWake/WyrmsWake
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [48140]  Target information:
+Player connection [35796]  Target information:
 
-Player connection [48140]  * "[IP] 10.14.0.2 [Port] 0 [Flags] 2 [Guid] 3159222574 [EditorId] 3159222574 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [35796]  * "[IP] 10.14.0.2 [Port] 0 [Flags] 2 [Guid] 3249155935 [EditorId] 3249155935 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [48140]  * "[IP] 192.168.0.26 [Port] 0 [Flags] 2 [Guid] 3159222574 [EditorId] 3159222574 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [35796]  * "[IP] 192.168.0.26 [Port] 0 [Flags] 2 [Guid] 3249155935 [EditorId] 3249155935 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [48140] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [48140] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [35796] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35796] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 14.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.50f1 (f1ef1dca8bff)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/Resources/UnitySubsystems
@@ -95,43 +95,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002204 seconds.
-- Loaded All Assemblies, in  0.351 seconds
+Registered in 0.002292 seconds.
+- Loaded All Assemblies, in  0.323 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.305 seconds
-Domain Reload Profiling: 655ms
-	BeginReloadAssembly (117ms)
+- Finished resetting the current domain, in  0.297 seconds
+Domain Reload Profiling: 618ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (141ms)
-		LoadAssemblies (113ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (122ms)
+		LoadAssemblies (114ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (139ms)
-			TypeCache.Refresh (137ms)
-				TypeCache.ScanAssembly (126ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (107ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (306ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (297ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (263ms)
+		SetupLoadedEditorAssemblies (254ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (135ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,11 +143,11 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.732 seconds
+- Loaded All Assemblies, in  0.699 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
@@ -155,116 +155,684 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.753 seconds
-Domain Reload Profiling: 1482ms
+- Finished resetting the current domain, in  0.676 seconds
+Domain Reload Profiling: 1372ms
 	BeginReloadAssembly (155ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (30ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (499ms)
-		LoadAssemblies (326ms)
+	LoadAllAssembliesAndSetupDomain (464ms)
+		LoadAssemblies (313ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (259ms)
-			TypeCache.Refresh (192ms)
-				TypeCache.ScanAssembly (177ms)
-			BuildScriptInfoCaches (52ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (178ms)
+				TypeCache.ScanAssembly (165ms)
+			BuildScriptInfoCaches (47ms)
 			ResolveRequiredComponents (11ms)
-	FinalizeReload (754ms)
+	FinalizeReload (676ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (556ms)
+		SetupLoadedEditorAssemblies (505ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (376ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (345ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 238 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7124 unused Assets / (7.1 MB). Loaded Objects now: 7817.
-Memory consumption went from 258.0 MB to 251.0 MB.
-Total: 15.352500 ms (FindLiveObjects: 1.609300 ms CreateObjectMapping: 0.688400 ms MarkObjects: 8.622500 ms  DeleteObjects: 4.431600 ms)
+Unloading 240 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7122 unused Assets / (7.3 MB). Loaded Objects now: 7821.
+Memory consumption went from 259.3 MB to 252.0 MB.
+Total: 28.223100 ms (FindLiveObjects: 8.481500 ms CreateObjectMapping: 3.876500 ms MarkObjects: 10.959100 ms  DeleteObjects: 4.904900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 451868.386642 seconds.
-  path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Spellcasting/MagicAttacks/Directional/HumanM@MagicAttackDirect2H01 - Load.anim
-  artifactKey: Guid(e3ca4951b373fee4aacd21269fc97be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Spellcasting/MagicAttacks/Directional/HumanM@MagicAttackDirect2H01 - Load.anim using Guid(e3ca4951b373fee4aacd21269fc97be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a202de465ffc692ed543582e6a3551de') in 0.0378612 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 469622.573693 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e819d0ede5bd04fa97d3c470d851cbb0') in 0.0559202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.638870 seconds.
-  path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Spellcasting/MagicAttacks/Directional/HumanM@MagicAttackDirect2H01 - Cast.anim
-  artifactKey: Guid(fde3141c2e3ca0c45979cc3d3b0f6552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Spellcasting/MagicAttacks/Directional/HumanM@MagicAttackDirect2H01 - Cast.anim using Guid(fde3141c2e3ca0c45979cc3d3b0f6552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a127a0b908dcdff1ab4d7fff70262cc5') in 0.0107979 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 69.646223 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43dba40cf9208e5298b6200c3ad2fb3f') in 0.0042477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.203799 seconds.
-  path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Spellcasting/MagicAttacks/Directional/HumanM@MagicAttackDirect2H01 - Cast.anim
-  artifactKey: Guid(fde3141c2e3ca0c45979cc3d3b0f6552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Spellcasting/MagicAttacks/Directional/HumanM@MagicAttackDirect2H01 - Cast.anim using Guid(fde3141c2e3ca0c45979cc3d3b0f6552) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '877ddfbd653f7e52c9d07b21f1a48509') in 0.0106235 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 8.689955 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b650736677970d2710f2aa60b3a5c136') in 0.0031002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
-  Time since last request: 483.362826 seconds.
-  path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Spellcasting/MagicAttacks/Omnidirectional/HumanM@MagicAttackOmni01.fbx
-  artifactKey: Guid(b98582042c1292a4e81193a2e417a4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Spellcasting/MagicAttacks/Omnidirectional/HumanM@MagicAttackOmni01.fbx using Guid(b98582042c1292a4e81193a2e417a4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e68cad8232e12e18edc34984d146da6c') in 0.0194127 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+  Time since last request: 27.527977 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '450112145b911520ae4dcb7f49487ae4') in 0.0030651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.111242 seconds.
-  path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Spellcasting/MagicAttacks/Omnidirectional/HumanM@MagicAttackOmni01.anim
-  artifactKey: Guid(350041d68f3de244d81ff9ddee098b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Spellcasting/MagicAttacks/Omnidirectional/HumanM@MagicAttackOmni01.anim using Guid(350041d68f3de244d81ff9ddee098b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd00818969d378a7a2be2247d0caa41e7') in 0.0173429 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 23.847327 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c28ac21ebe66eb6066bdab60876eb83') in 0.0031575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
-  Time since last request: 82.265077 seconds.
-  path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Spellcasting/HumanM@CastingEnter01.anim
-  artifactKey: Guid(590b842ea9ead714bbb84ad4eae959ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Spellcasting/HumanM@CastingEnter01.anim using Guid(590b842ea9ead714bbb84ad4eae959ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e02378792b8ab1d0999bcbe7243dfeb1') in 0.007657 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 42.881162 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '156ef7ae9f17c6b2440ca4d8bd5155d3') in 0.0034861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.168865 seconds.
-  path: Assets/WizardPolyArt/Animations/NoStaffAttack
-  artifactKey: Guid(4f38656a44a0e3049927bf8682680a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WizardPolyArt/Animations/NoStaffAttack using Guid(4f38656a44a0e3049927bf8682680a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37dafc54c06e8e55e08fd1e5cbf571e3') in 0.0007461 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 18.787863 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f70e06d4d6bdb1add70902946829933') in 0.0032026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.382443 seconds.
-  path: Assets/WizardPolyArt/Animations/HumanM@MagicAttackDirect1H01_L.anim
-  artifactKey: Guid(daeb1f0cc98fe6c4582bc46428b5a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/WizardPolyArt/Animations/HumanM@MagicAttackDirect1H01_L.anim using Guid(daeb1f0cc98fe6c4582bc46428b5a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92a5b36b04367a01317c043221c98e59') in 0.0285042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 25.472429 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fc653f9f930d84afe9f6323a271fed3') in 0.0035552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4439.107560 seconds.
-  path: Assets/Hovl Studio/Magic effects pack/Models/Cylinder.fbx
-  artifactKey: Guid(4a8c064de5d1b4045a9e9d4ebd5d6575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic effects pack/Models/Cylinder.fbx using Guid(4a8c064de5d1b4045a9e9d4ebd5d6575) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aaf1050c8dfc95c1680a1089dd0b78d4') in 0.6353979 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+  Time since last request: 39.008530 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '537a246e170a5437ccce2c2655915a41') in 0.0031293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.395643 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3384928c13d6b4a60649ebb24b8b68a') in 0.0029437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.236120 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e864637e2cf6392899de9646effb83c') in 0.0029659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 335.137040 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f588cb4af13ff2946736f7779ba120e') in 0.0036862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.351657 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb661ae29755076ad5ea0280145b6a5c') in 0.0032885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.433649 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed5e5df502dd3ffa1faa5532b6a3b259') in 0.0050539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.471700 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '376a9a0945267b391123fbb50485db6f') in 0.0031551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.484256 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec7c961277905e5def21c1573daab69c') in 0.0031208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.268384 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa451700a7f99d31fb36161e472daba9') in 0.0050858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.744672 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eca82b41483b86437c75bc2e2fc6f563') in 0.0032541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.243423 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc9a47288bd2cc63399d92c02e916eaa') in 0.0029274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.663850 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2771f84bd2d4b6f58fce5e11af05b83d') in 0.0031723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.569369 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf00227da5d015abd31fb2f561f2e102') in 0.0029365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.874253 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a9f89a18676329a2b8b98ab9d421b03') in 0.0038279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.862902 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '490043916247589a2203db506780e5f7') in 0.0034989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.572028 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonNightmare/Albino/Albedo.png
+  artifactKey: Guid(1c03775e3fb75374e84fcf86d661b48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonNightmare/Albino/Albedo.png using Guid(1c03775e3fb75374e84fcf86d661b48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bd30835ac26a6476d30eb729987710f') in 0.0406751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonSoulEater/Blue/Albedo.png
+  artifactKey: Guid(b03abfd2f0f19a44298bd889ec706888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonSoulEater/Blue/Albedo.png using Guid(b03abfd2f0f19a44298bd889ec706888) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a5a5004482d6f81d7a25cb4165ed535') in 0.0100164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonNightmare/Green/Albedo.png
+  artifactKey: Guid(fef97105f9e18dd48bcca337e11f7ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonNightmare/Green/Albedo.png using Guid(fef97105f9e18dd48bcca337e11f7ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f809fffd50d8b05ab1a843297a6ccd0') in 0.0092305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonNightmare/Red/Albedo.png
+  artifactKey: Guid(1286e3e942db3464189cf63fd5ae947d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonNightmare/Red/Albedo.png using Guid(1286e3e942db3464189cf63fd5ae947d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19546292d458b700a19d229595a12e18') in 0.0099047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.471996 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonSoulEater/green/Albedo.png
+  artifactKey: Guid(ee296f39b4ba6684bb7472b54e7562e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonSoulEater/green/Albedo.png using Guid(ee296f39b4ba6684bb7472b54e7562e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24ea3ad2da023167541f03d57de83ace') in 0.0113292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonUsurper/Red/Albedo.png
+  artifactKey: Guid(6de25e60bb604e44aa57ebbbaaff9b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonUsurper/Red/Albedo.png using Guid(6de25e60bb604e44aa57ebbbaaff9b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c27221815d0ab4934bb9b35fb558ae71') in 0.0106262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonNightmare/AlbinoHP.png
+  artifactKey: Guid(567379e57808cd747b2f0e08790e0d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonNightmare/AlbinoHP.png using Guid(567379e57808cd747b2f0e08790e0d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddddaa380f62d727a0bcc5c7fce14603') in 0.0091409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.219474 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Grey/Ambient Occlusion Map from Mesh lambert1.png
+  artifactKey: Guid(2f49032f2c735314e87819a965f1a8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Grey/Ambient Occlusion Map from Mesh lambert1.png using Guid(2f49032f2c735314e87819a965f1a8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e30ce618a90b13fd049fa870bf294191') in 0.0101361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Albino/Ambient Occlusion Map from Mesh lambert1.png
+  artifactKey: Guid(e618b616d003a0b4ab772329dcf23a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonTerrorBringer/Albino/Ambient Occlusion Map from Mesh lambert1.png using Guid(e618b616d003a0b4ab772329dcf23a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a49663715c8c0731bb9817e28f7abb0') in 0.0081935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonUsurper/Blue/AO.png
+  artifactKey: Guid(c0271b76d281ea141b443bd6a9d5187a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonUsurper/Blue/AO.png using Guid(c0271b76d281ea141b443bd6a9d5187a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b73361962f73eba3304bb0e73e1b94fa') in 0.0445824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.135047 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonUsurper/Albino/AO.png
+  artifactKey: Guid(9e45e8a36a6a4254bb5946e9b1a329bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonUsurper/Albino/AO.png using Guid(9e45e8a36a6a4254bb5946e9b1a329bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aba670981935b5f699fc4f60d1aae820') in 0.0090714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonUsurper/Dark/AO.png
+  artifactKey: Guid(393a2880b0756264b85380c4b1ed0039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonUsurper/Dark/AO.png using Guid(393a2880b0756264b85380c4b1ed0039) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f90cb99890f446a0775a4158414ff18') in 0.0082877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonNightmare/Blue/AO.png
+  artifactKey: Guid(7f4bee4d8d425d04b84c05ca31349b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonNightmare/Blue/AO.png using Guid(7f4bee4d8d425d04b84c05ca31349b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a173d72fe47d4666fc738b7bbfbf404') in 0.0083876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonSoulEater/Red/AO.png
+  artifactKey: Guid(8b3e101d8395b6e4dbbf87c03e4fd446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonSoulEater/Red/AO.png using Guid(8b3e101d8395b6e4dbbf87c03e4fd446) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee180d83507407ac1272aa4c724c5739') in 0.0074043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.169652 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonSoulEater/green/AO.png
+  artifactKey: Guid(dce22288e48903d4ca0aced0a4440328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonSoulEater/green/AO.png using Guid(dce22288e48903d4ca0aced0a4440328) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35d51da2be9f2b7293f27114d87e4354') in 0.0091878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Arrow1.png
+  artifactKey: Guid(cd95337217b49a143a851ed79a626632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Arrow1.png using Guid(cd95337217b49a143a851ed79a626632) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74b5cccde513d043f04d2f0c2859fbfe') in 0.0063003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.208470 seconds.
+  path: Assets/TSF assets/arena/background/background_ao.tga
+  artifactKey: Guid(71bceb55cf052a04ea02707092ee63a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/background/background_ao.tga using Guid(71bceb55cf052a04ea02707092ee63a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7c9e6d145dcfd5aadb242791035b418') in 0.0073474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TSF assets/arena/background/background_Metalness.tga
+  artifactKey: Guid(0c9f7979aa4a66b4d9e70aaaad6e25d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/background/background_Metalness.tga using Guid(0c9f7979aa4a66b4d9e70aaaad6e25d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '301f4311c3bd7dc86ce580bae1308702') in 0.0127518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TSF assets/arena/background/background_Roughness.tga
+  artifactKey: Guid(7772b986a978ff04bbede02a8086aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/background/background_Roughness.tga using Guid(7772b986a978ff04bbede02a8086aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a877c4919cdd03551e7de13bb93a59d') in 0.0079858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058937 seconds.
+  path: Assets/TSF assets/arena/big door/big door_ao.tga
+  artifactKey: Guid(56c897d47ea109d4aad7c264ce84687d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/big door/big door_ao.tga using Guid(56c897d47ea109d4aad7c264ce84687d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ce048bb138cf4375d15df55d040fab4') in 0.0079831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TSF assets/arena/big door/big door_Metalness.tga
+  artifactKey: Guid(4628e9bb32ac0534b87f795f8b1ff8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TSF assets/arena/big door/big door_Metalness.tga using Guid(4628e9bb32ac0534b87f795f8b1ff8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70f6ef8d3e59d9a0f5fd048dcfa04630') in 0.0078374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FourEvilDragonsHP/Texture/DragonUsurper/BlueHP.png
+  artifactKey: Guid(bd6a5ac65d3f73a48bdbc2102872fac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FourEvilDragonsHP/Texture/DragonUsurper/BlueHP.png using Guid(bd6a5ac65d3f73a48bdbc2102872fac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '316844a6533ae3fa2eeeb0c768b77aa9') in 0.0095947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.916782 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90cb9fc411d64d98382659ec890d5dce') in 0.0076937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.216962 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '078daddf60a7ac4af086813172e9c9b0') in 0.0032066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.271522 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea5bc381812aadf497b22a92a6d2c522') in 0.0039992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.766363 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f08befa7faf2e927128260d015dae271') in 0.0041256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.716895 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '509468878d17615948c9b9bc14f67caa') in 0.003058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.111234 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57a192209aaa650cef7c7cab262aca1b') in 0.003388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.895278 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43501a883ce44a5bff14f0a2f4d59351') in 0.0030645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.446729 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c737f969e7638979c4e781a8af400f31') in 0.003064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.602576 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4ab733e952dc5ecfcacb64d7a5e9c88') in 0.0045293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.159627 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Textures/Debris.png
+  artifactKey: Guid(af1f1b45fa6b5e64894c04ceb8a592f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Textures/Debris.png using Guid(af1f1b45fa6b5e64894c04ceb8a592f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '774df0fb05ab6a5454faab55cb988a43') in 0.0405634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.371479 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a19b924e02a0cfa6c396804c5ef13069') in 0.0056347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 480.820471 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b05f0425e421518314031209f7954f06') in 0.0047307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.295423 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b5dd4952c95aa67f293808e50955ce5') in 0.0033515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.081539 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f615f8c2f1908f00fa20d9afd2c1c46c') in 0.0032494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.618963 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ab314ba0d9f5161c6f42d157b833a8c') in 0.0044251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 214.784299 seconds.
+  path: Assets/Scripts/DisolvingShaderGraph.shadergraph
+  artifactKey: Guid(f350b11c11c9a1742859b7ccf34aa4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DisolvingShaderGraph.shadergraph using Guid(f350b11c11c9a1742859b7ccf34aa4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9440813aeb6c8e1319fd3446db50141b') in 1.9175244 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.663143 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6373cee6ac3175938c59de7bdc9bb488') in 0.4009718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.707762 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62f74e706b6e8d2766a45b35071981af') in 0.4424979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.046060 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a752dcae30c2775d35c4eff5b65f6450') in 0.2027532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.121355 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5ce0b098d04ba50a8facddac00a1865') in 0.4180541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.445901 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c86bc4dbb263d46b4fc595582b434db0') in 0.1968838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.547467 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b65ce346c8015aa2764b0ff110ab0c60') in 0.2232929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.012269 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35def54ec641f0eb9de395b9b7ea557b') in 0.1962513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.357980 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca0ba26bfb0d37598c6d9a79b2b99ea4') in 0.1970745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.347657 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62ba78616e35c6e51518dabb2ddae960') in 0.4335965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.403283 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04a518c182879893e96db87e1c1a3944') in 0.1940596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.091900 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '955172082c005ed5dddb6548bf87d037') in 0.197792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.184679 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77eec78eaafb923f1b230241d9c8d32d') in 0.1960929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.522173 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '785a38feeb1b9ca2ca227e82ca435e60') in 0.2555907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.065167 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e641401629f382f2341109bf136d1420') in 0.2008871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.133990 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44e0fef44840e6c87dc3f5b857aeb69c') in 0.2017752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.090399 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '922089f82ec4816171316b5e94d88496') in 0.1920091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.983634 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '240c0bfead47749c1e764b55273c9269') in 0.2002223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 243.997330 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '234a206dd66edb3f63ac3b801192530d') in 0.1932153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 361.450058 seconds.
+  path: Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx
+  artifactKey: Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/vfxGraph_EarthCrystalAttack.vfx using Guid(b946ef078607ef1409b17159f6a4b0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54e111d350bd112ba6b8c8c42a6c8397') in 0.2321611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
 
