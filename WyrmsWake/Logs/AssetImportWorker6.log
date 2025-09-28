@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.50f1 (f1ef1dca8bff) revision 15855389'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32682 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-09-27T02:11:16Z
+Date: 2025-09-28T01:14:31Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.50f1\Editor\Unity.exe
@@ -16,7 +16,7 @@ C:/GitHub/WyrmsWake/WyrmsWake
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-49191
+62570
 -job-worker-count
 7
 -background-job-worker-count
@@ -60,14 +60,14 @@ C:/GitHub/WyrmsWake/WyrmsWake
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [42048]  Target information:
+Player connection [32900]  Target information:
 
-Player connection [42048]  * "[IP] 10.14.0.2 [Port] 0 [Flags] 2 [Guid] 615627847 [EditorId] 615627847 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [32900]  * "[IP] 10.14.0.2 [Port] 0 [Flags] 2 [Guid] 3183759943 [EditorId] 3183759943 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [42048]  * "[IP] 192.168.0.26 [Port] 0 [Flags] 2 [Guid] 615627847 [EditorId] 615627847 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [32900]  * "[IP] 192.168.0.26 [Port] 0 [Flags] 2 [Guid] 3183759943 [EditorId] 3183759943 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [42048] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [42048] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [32900] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32900] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.50f1 (f1ef1dca8bff)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/Resources/UnitySubsystems
@@ -95,43 +95,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002975 seconds.
-- Loaded All Assemblies, in  0.404 seconds
+Registered in 0.002427 seconds.
+- Loaded All Assemblies, in  0.372 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.345 seconds
-Domain Reload Profiling: 748ms
-	BeginReloadAssembly (126ms)
+- Finished resetting the current domain, in  0.317 seconds
+Domain Reload Profiling: 687ms
+	BeginReloadAssembly (131ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (172ms)
-		LoadAssemblies (121ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (129ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (169ms)
-			TypeCache.Refresh (167ms)
-				TypeCache.ScanAssembly (154ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (126ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (346ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (317ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (298ms)
+		SetupLoadedEditorAssemblies (273ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
+			InitializePlatformSupportModulesInManaged (19ms)
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (157ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,11 +143,11 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.885 seconds
+- Loaded All Assemblies, in  0.720 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
@@ -155,112 +155,260 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.828 seconds
-Domain Reload Profiling: 1708ms
-	BeginReloadAssembly (215ms)
+- Finished resetting the current domain, in  0.708 seconds
+Domain Reload Profiling: 1424ms
+	BeginReloadAssembly (165ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (583ms)
-		LoadAssemblies (392ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (475ms)
+		LoadAssemblies (322ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (304ms)
-			TypeCache.Refresh (222ms)
-				TypeCache.ScanAssembly (203ms)
-			BuildScriptInfoCaches (62ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (828ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (167ms)
+			BuildScriptInfoCaches (49ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (708ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (617ms)
+		SetupLoadedEditorAssemblies (529ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
+			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (120ms)
-			ProcessInitializeOnLoadAttributes (426ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 247 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7122 unused Assets / (7.7 MB). Loaded Objects now: 7884.
-Memory consumption went from 279.6 MB to 271.9 MB.
-Total: 19.971700 ms (FindLiveObjects: 1.286600 ms CreateObjectMapping: 1.383700 ms MarkObjects: 11.878800 ms  DeleteObjects: 5.421700 ms)
+Unloading 252 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7126 unused Assets / (7.2 MB). Loaded Objects now: 7855.
+Memory consumption went from 272.6 MB to 265.4 MB.
+Total: 14.577700 ms (FindLiveObjects: 1.651000 ms CreateObjectMapping: 0.888500 ms MarkObjects: 7.274000 ms  DeleteObjects: 4.763400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 477781.184312 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/Shared/Environment/Textures/MetalTrim_Normal.tif
-  artifactKey: Guid(2927ac255e81f184b8459509e4b3dce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/Shared/Environment/Textures/MetalTrim_Normal.tif using Guid(2927ac255e81f184b8459509e4b3dce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ee107cce4ed18445c50a707a8ced420') in 0.1633182 seconds
+  Time since last request: 560811.378121 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/VFX/Shockwaves Distortion/Particles/VFX_Shockwave_01_Distortion_2s.prefab
+  artifactKey: Guid(ac8689a635e650a4dbdb5e3c5886dacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/VFX/Shockwaves Distortion/Particles/VFX_Shockwave_01_Distortion_2s.prefab using Guid(ac8689a635e650a4dbdb5e3c5886dacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01495a9fa7e2d470586747f1d168adf6') in 0.5965981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.758330 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_01_2s.wav
+  artifactKey: Guid(856d36a214b21b644929ab8cb867a5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_01_2s.wav using Guid(856d36a214b21b644929ab8cb867a5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30e2339c49c8b16da45a7084ff06ecfb') in 0.033148 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008490 seconds.
-  path: Assets/NamuFX/_SharedAssets/Images/Noise/Noise04.tga
-  artifactKey: Guid(70012a15c5b767c4c93b9629828f35c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NamuFX/_SharedAssets/Images/Noise/Noise04.tga using Guid(70012a15c5b767c4c93b9629828f35c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2e312676633d3d569cfa6685bda52f4') in 0.010309 seconds
+  Time since last request: 0.000038 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_04_1s.wav
+  artifactKey: Guid(de6f9451b82aed54cb92b6d0b6a20a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_04_1s.wav using Guid(de6f9451b82aed54cb92b6d0b6a20a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8526c3eec1afd15e7c25d2a198948021') in 0.0044842 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.092188 seconds.
-  path: Assets/FourEvilDragonsHP/Texture/DragonUsurper/Blue/Normal.png
-  artifactKey: Guid(655852d26a1285e4d84c0a21b901148a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Texture/DragonUsurper/Blue/Normal.png using Guid(655852d26a1285e4d84c0a21b901148a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d98e0ec333639c64827cd23c650d51c') in 0.0204126 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_12_1s.wav
+  artifactKey: Guid(a4f78e4e1ff217241b710f7cb9dfb251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_12_1s.wav using Guid(a4f78e4e1ff217241b710f7cb9dfb251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c654c80c222fc96f15d89b763d5912f8') in 0.0043049 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/FourEvilDragonsHP/Texture/DragonNightmare/Blue/Normal.png
-  artifactKey: Guid(b896dc9b97305dc46bdd7f223b258a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Texture/DragonNightmare/Blue/Normal.png using Guid(b896dc9b97305dc46bdd7f223b258a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf22201da4762e8caacb28227d008ffa') in 0.0208754 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_08_1s.wav
+  artifactKey: Guid(4f1bcc47b2e29894a8f2c798e1e5e487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_08_1s.wav using Guid(4f1bcc47b2e29894a8f2c798e1e5e487) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51127c345287c4cd68911d11cfeb91ff') in 0.0052911 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.075984 seconds.
-  path: Assets/FourEvilDragonsHP/Texture/DragonSoulEater/green/Normal.png
-  artifactKey: Guid(e8ab2db90023b534d9ba7c3bcacd01b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Texture/DragonSoulEater/green/Normal.png using Guid(e8ab2db90023b534d9ba7c3bcacd01b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76dce360cabe56ed3c31b852b899b0d2') in 0.030798 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_15_2s.wav
+  artifactKey: Guid(60c87d3a733e3a641b40408d06a25ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_15_2s.wav using Guid(60c87d3a733e3a641b40408d06a25ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5a6a23f9945dcf6bed58c9cef500542') in 0.0045097 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.402587 seconds.
-  path: Assets/TSF assets/arena/background pipes/pipes back_Roughness.tga
-  artifactKey: Guid(a403f1dacdb98d24c85161f8155062f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TSF assets/arena/background pipes/pipes back_Roughness.tga using Guid(a403f1dacdb98d24c85161f8155062f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1905aba030787c38b1dbaf095ea5415e') in 0.0103558 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_14_1s.wav
+  artifactKey: Guid(6dad20686b807cc498ef8a2072b70675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_14_1s.wav using Guid(6dad20686b807cc498ef8a2072b70675) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fbc845170e69188ce7c06337c1bc9db') in 0.0044114 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.953239 seconds.
-  path: Assets/FourEvilDragonsHP/Texture/DragonUsurper/PurpleHP.png
-  artifactKey: Guid(005cc54167f5bc347bda1b165320388f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FourEvilDragonsHP/Texture/DragonUsurper/PurpleHP.png using Guid(005cc54167f5bc347bda1b165320388f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de8db2d110a156ae99ebe9e53da356e4') in 0.0101308 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_05_2s.wav
+  artifactKey: Guid(933b8674f25f05e4ab241ade96631170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_05_2s.wav using Guid(933b8674f25f05e4ab241ade96631170) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19fba8eec2c0aa8570eb754186b32aab') in 0.0053214 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.332666 seconds.
-  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Textures/Ramp03.png
-  artifactKey: Guid(595a5c1164fec844f8e6b477620221f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Textures/Ramp03.png using Guid(595a5c1164fec844f8e6b477620221f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '192e0d66d7014c3764723b98924d614c') in 0.0051162 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_10_1s.wav
+  artifactKey: Guid(6fa280532b0715040816cc66d1e809a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_10_1s.wav using Guid(6fa280532b0715040816cc66d1e809a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0224c8fd1d0fda77f569f7d0d2b94379') in 0.0041858 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_06_1s.wav
+  artifactKey: Guid(e09a953121257c94a8e738672cd9e648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_06_1s.wav using Guid(e09a953121257c94a8e738672cd9e648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0ecb530d9aabde97733bb055d8c6eb9') in 0.00434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_09_1s.wav
+  artifactKey: Guid(48f166a23af5bd242b67f0addb903ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_09_1s.wav using Guid(48f166a23af5bd242b67f0addb903ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5d8ac54436d635bcc82bfe565b94ad6') in 0.0044504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_15_1s.wav
+  artifactKey: Guid(d0b54347eb501514bbca9c22024a5f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_15_1s.wav using Guid(d0b54347eb501514bbca9c22024a5f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '918448d65b2292dc84d723288eb98757') in 0.0050661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_04_2s.wav
+  artifactKey: Guid(f40a5333928e7344ca6b927ee9dce44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Audio/WAV/SFX_Vefects_Shockwave_04_2s.wav using Guid(f40a5333928e7344ca6b927ee9dce44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd856b703046b1e31e8f7b9da86a9482e') in 0.0047112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.887700 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/_ Extra
+  artifactKey: Guid(cfada928b9dd1654890109afe45c2489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/_ Extra using Guid(cfada928b9dd1654890109afe45c2489) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '666a80c3a634e20442e75718c34a7951') in 0.000557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.748640 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/_ Extra/Textures
+  artifactKey: Guid(76cf258f99043fe40aa09ddfb0fbdbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/_ Extra/Textures using Guid(76cf258f99043fe40aa09ddfb0fbdbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b07976ae336c6f3152742d3f79aaf6dc') in 0.0004673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023132 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/_ Extra/Textures/Vefects_Anime_Stylized_VFX_Extra_01.tga
+  artifactKey: Guid(d93f990d13d045f429026c0f90c29968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/_ Extra/Textures/Vefects_Anime_Stylized_VFX_Extra_01.tga using Guid(d93f990d13d045f429026c0f90c29968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6db7207bb48d358af59a537cd71c2131') in 0.0142059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/_ Extra/Textures/Vefects_Vignette_VFX_Extra_01.tga
+  artifactKey: Guid(eea650ed97e7ad846bb605dc3e48e706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/_ Extra/Textures/Vefects_Vignette_VFX_Extra_01.tga using Guid(eea650ed97e7ad846bb605dc3e48e706) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f93e777f36eb9b459080fc21706bdc04') in 0.0053882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/_ Extra/Textures/Vefects_Flipbook_VFX_Extra_01.tga
+  artifactKey: Guid(6c5368ab3cea67f4b951f2856e9c365e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/_ Extra/Textures/Vefects_Flipbook_VFX_Extra_01.tga using Guid(6c5368ab3cea67f4b951f2856e9c365e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '377e66276e1ef11348d15a842a3bb4f5') in 0.0052039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/_ Extra/Textures/Vefects_Level_Up_VFX_Extra_01.tga
+  artifactKey: Guid(d9dedb3d974eea44f8d9e6025e3f2381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/_ Extra/Textures/Vefects_Level_Up_VFX_Extra_01.tga using Guid(d9dedb3d974eea44f8d9e6025e3f2381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2aa4db1b1f4990203b23c7a4bddfe152') in 0.0057095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/_ Extra/Textures/Vefects_Space_VFX_Extra_01.tga
+  artifactKey: Guid(ec0ff24c7a2a17247baf40025bea3f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/_ Extra/Textures/Vefects_Space_VFX_Extra_01.tga using Guid(ec0ff24c7a2a17247baf40025bea3f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63aae9bebe2453eacd0b126d29a919e7') in 0.0053537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/_ Extra/Textures/Vefects_Shots_VFX_Extra_01.tga
+  artifactKey: Guid(5aa5dde447bb82e458d32a314cbac677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/_ Extra/Textures/Vefects_Shots_VFX_Extra_01.tga using Guid(5aa5dde447bb82e458d32a314cbac677) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62807d1b8699b56666532c97f7ac6125') in 0.0058326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/_ Extra/Textures/Vefects_Essential_Trails_VFX_Extra_01.tga
+  artifactKey: Guid(b1617daa141f36542951e6213dac4c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/_ Extra/Textures/Vefects_Essential_Trails_VFX_Extra_01.tga using Guid(b1617daa141f36542951e6213dac4c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cb1d3b711e4a47eb11f049f3effcd7c') in 0.0052708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.850424 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Shared/Textures/T_VFX_Easy_Shockwaves_Linear_Mask_02.tga
+  artifactKey: Guid(9b0af5e94efb2fa459a5cf380a05c722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Shared/Textures/T_VFX_Easy_Shockwaves_Linear_Mask_02.tga using Guid(9b0af5e94efb2fa459a5cf380a05c722) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd37ee07a5551278dc15b758e96e69ac') in 0.0060581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Shared/Textures/T_VFX_Easy_Shockwaves_Noise_03.tga
+  artifactKey: Guid(f1e3dfe2def118f4088a81914ed7ab7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Shared/Textures/T_VFX_Easy_Shockwaves_Noise_03.tga using Guid(f1e3dfe2def118f4088a81914ed7ab7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '894812ead4c2a6562dbb4a87fdfc2d96') in 0.0063969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Shared/Textures/T_VFX_Glows_Packed_01.tga
+  artifactKey: Guid(31d89f9ac3a7be24bae1178e0451cab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Shared/Textures/T_VFX_Glows_Packed_01.tga using Guid(31d89f9ac3a7be24bae1178e0451cab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4b443e37339f52c95510745598ad1db') in 0.0055056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Shared/Textures/T_VFX_Linear_Gradient_Mirror_Horizontal.tga
+  artifactKey: Guid(f3aedc7f640df9443a186067af29a1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Shared/Textures/T_VFX_Linear_Gradient_Mirror_Horizontal.tga using Guid(f3aedc7f640df9443a186067af29a1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '941f709e73ad98f25a5f1616f3dad260') in 0.0053952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Vefects/Easy Shockwaves VFX URP/Shared/Textures/T_VFX_Linear_Gradient_Mirror_Horizontal_01.tga
+  artifactKey: Guid(49eee04abaae1f049b8735c884937013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Easy Shockwaves VFX URP/Shared/Textures/T_VFX_Linear_Gradient_Mirror_Horizontal_01.tga using Guid(49eee04abaae1f049b8735c884937013) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '778233931c0e568814d0be1ac70f5547') in 0.0069043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+

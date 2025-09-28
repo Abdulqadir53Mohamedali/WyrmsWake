@@ -18,3 +18,5 @@ MonoBehaviour:
   speed: 15
   element: Earth
   spellPrefab: {fileID: 5748077168290149988, guid: 07555482b3bf9b34ebc5fe026cbb9d47, type: 3}
+  spellType: 0
+  spellName: EarthCrystal

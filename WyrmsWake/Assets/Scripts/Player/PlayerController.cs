@@ -1,9 +1,11 @@
 using Game.Anim;
 using Game.FSM;
+using UnityEngine.VFX;
 using System.Collections;
 using System.Diagnostics.Contracts;
 using System.Runtime.CompilerServices;
 using Unity.Cinemachine;
+//using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -34,7 +36,8 @@ namespace Game.Player
 
         [Header("Magic Stats")]
         public SpellSO currentSpell;
-        public Transform firePoint;
+        public Transform[] firePoints;
+        public Transform DefaultfirePoint;
         [SerializeField] private SpellSO[] availableSpells;
         [Header("Vector & Rotational variables")]
         public Vector3 targetVel;
@@ -52,12 +55,7 @@ namespace Game.Player
         // clamping prevents unrelaistic fall speeds . ensures smooth falls and jumps
         float velocityY;
 
-        //[Header("Player Equip")]
-        //public GameObject mainSword;
-        //public GameObject swordOnShoulder;
 
-        //public bool isEquipped;
-        //public bool isEquipping;
 
         //[Header("Attack Combo 1")]
         //private float attackWindowReset = 1.5f;
@@ -104,7 +102,7 @@ namespace Game.Player
         private void OnRightClick(InputAction.CallbackContext ctx)
         {
             Debug.Log("Made it to combo start");
-            animator.SetTrigger("NoStaffAttackLeftHand");
+            animator.SetTrigger("NoStaffAttackRising");
 
             //CastSpell();
 
@@ -285,6 +283,19 @@ namespace Game.Player
         //    stateMachine.SetState(isSprinting ? runningState : locomotionState); 
 
         //}
+
+        public Transform FirePointCheck(string name)
+        {
+            foreach(Transform t in firePoints)
+            {
+                if(t.name == name)
+                {
+                    return t.transform;
+                }
+            }
+
+            return DefaultfirePoint;
+        }
         public void CastSpell()
         {
             if (currentSpell == null || currentSpell.spellPrefab == null)
@@ -292,23 +303,33 @@ namespace Game.Player
                 Debug.LogWarning("No spell or prefab assigned!");
                 return;
             }
-
+            Transform spellPosition = FirePointCheck(currentSpell.spellPrefab.name);
+            Quaternion rotation = spellPosition.rotation;
+            if (currentSpell.spellType == SpellType.Projectile && currentSpell.spellPrefab.name == "EarthCrystal")
+            {
+                rotation *= Quaternion.Euler(-90f, 0f, 0f);
+            }
             GameObject spellInstance = Instantiate(
                 currentSpell.spellPrefab,
-                firePoint.position,
-                firePoint.rotation * Quaternion.Euler(-90f, 0f, 0f)
+                spellPosition.position,
+                rotation
             );
 
             // 2. Pass SpellSO data to the Spell script
             Spell spell = spellInstance.GetComponent<Spell>();
             if (spell != null)
             {
-                spell.Initialize(currentSpell);
 
                 ProjectileSpell projectile = spell as ProjectileSpell;
+                InstantVFXSpell instantVFX = spell as InstantVFXSpell;
                 if (projectile != null)
                 {
-                    projectile.Launch(firePoint.forward);
+                    spell.Initialize(currentSpell);
+                    projectile.Launch(spellPosition.forward);
+                }
+                else if(instantVFX != null)
+                {
+                    spell.Initialize(currentSpell);
                 }
             }
         }
@@ -383,6 +404,10 @@ namespace Game.Player
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
                 currentSpell = availableSpells[0];
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                currentSpell = availableSpells[1];
             }
             //if(comboIndex > 0 && Time.time - lastInputTime > attackWindowReset)
             //{

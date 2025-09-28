@@ -1,8 +1,8 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-[RequireComponent (typeof(Rigidbody))]
-[RequireComponent (typeof(Collider))]
+//[RequireComponent (typeof(Rigidbody))]
+//[RequireComponent (typeof(Collider))]
 
 
 public class Spell : MonoBehaviour

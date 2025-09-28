@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6d14ad1842a11049b0ca1b7c934a491, type: 3}
+  m_Name: EarthCrystalRiseAttack
+  m_EditorClassIdentifier: 
+  damageAmount: 10
+  manaCost: 5
+  lifetime: 3
+  speed: 0
+  element: Earth
+  spellPrefab: {fileID: 6646451849698466595, guid: 888c517392e4af042832fef42863fc34, type: 3}
+  spellType: 1
+  spellName: vfxgraph_EarthCrystalRiseAttacl
