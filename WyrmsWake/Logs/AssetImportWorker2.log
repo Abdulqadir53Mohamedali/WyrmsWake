@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.50f1 (f1ef1dca8bff) revision 15855389'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32682 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-09-28T00:51:50Z
+Date: 2025-09-29T21:45:07Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.50f1\Editor\Unity.exe
@@ -16,7 +16,7 @@ C:/GitHub/WyrmsWake/WyrmsWake
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-62570
+50947
 -job-worker-count
 7
 -background-job-worker-count
@@ -60,14 +60,14 @@ C:/GitHub/WyrmsWake/WyrmsWake
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34836]  Target information:
+Player connection [15652]  Target information:
 
-Player connection [34836]  * "[IP] 10.14.0.2 [Port] 0 [Flags] 2 [Guid] 920880254 [EditorId] 920880254 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15652]  * "[IP] 10.14.0.2 [Port] 0 [Flags] 2 [Guid] 1467100877 [EditorId] 1467100877 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [34836]  * "[IP] 192.168.0.26 [Port] 0 [Flags] 2 [Guid] 920880254 [EditorId] 920880254 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15652]  * "[IP] 192.168.0.26 [Port] 0 [Flags] 2 [Guid] 1467100877 [EditorId] 1467100877 [Version] 1048832 [Id] WindowsEditor(7,AQ-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [34836] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [34836] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15652] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15652] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.50f1 (f1ef1dca8bff)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/Resources/UnitySubsystems
@@ -95,43 +95,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.50f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002531 seconds.
-- Loaded All Assemblies, in  0.378 seconds
+Registered in 0.002564 seconds.
+- Loaded All Assemblies, in  0.400 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.322 seconds
-Domain Reload Profiling: 698ms
-	BeginReloadAssembly (129ms)
+- Finished resetting the current domain, in  0.331 seconds
+Domain Reload Profiling: 728ms
+	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (148ms)
-		LoadAssemblies (127ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (138ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (144ms)
-				TypeCache.ScanAssembly (131ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (138ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (322ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (331ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (274ms)
+		SetupLoadedEditorAssemblies (298ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (20ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (141ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,11 +143,11 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.732 seconds
+- Loaded All Assemblies, in  0.847 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
@@ -155,158 +155,62 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.692 seconds
-Domain Reload Profiling: 1421ms
-	BeginReloadAssembly (164ms)
+- Finished resetting the current domain, in  0.812 seconds
+Domain Reload Profiling: 1656ms
+	BeginReloadAssembly (195ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (481ms)
-		LoadAssemblies (320ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (555ms)
+		LoadAssemblies (409ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (255ms)
-			TypeCache.Refresh (189ms)
-				TypeCache.ScanAssembly (176ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (172ms)
 			BuildScriptInfoCaches (51ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (693ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (813ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (518ms)
+		SetupLoadedEditorAssemblies (603ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (344ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 246 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7126 unused Assets / (7.8 MB). Loaded Objects now: 7849.
-Memory consumption went from 266.6 MB to 258.8 MB.
-Total: 17.361700 ms (FindLiveObjects: 2.023800 ms CreateObjectMapping: 0.935200 ms MarkObjects: 8.759300 ms  DeleteObjects: 5.642400 ms)
+Unloading 248 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7126 unused Assets / (8.9 MB). Loaded Objects now: 7851.
+Memory consumption went from 273.6 MB to 264.7 MB.
+Total: 26.372900 ms (FindLiveObjects: 1.372400 ms CreateObjectMapping: 0.732500 ms MarkObjects: 9.124600 ms  DeleteObjects: 15.142800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 559620.178027 seconds.
-  path: Assets/Mirza/Distortion Shockwaves VFX/Scenes
-  artifactKey: Guid(cb929e5aa3fedb247a36cc384bfb3e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirza/Distortion Shockwaves VFX/Scenes using Guid(cb929e5aa3fedb247a36cc384bfb3e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4da180c3f77e0f3f61ecec8ff272844') in 0.0051575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 721011.619749 seconds.
+  path: Assets/GabrielAguiarProductions/Prefabs/StylizedIceAttack/vfx_IceAttack03_v2_orange.prefab
+  artifactKey: Guid(f0632a985c24c5a4aa263cd02ffd3bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Prefabs/StylizedIceAttack/vfx_IceAttack03_v2_orange.prefab using Guid(f0632a985c24c5a4aa263cd02ffd3bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30778b83ccbdc8f17343ff0a10128466') in 1.0112415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.329269 seconds.
-  path: Assets/Mirza/Distortion Shockwaves VFX/Shaders
-  artifactKey: Guid(b1150a243f64b3f40834ec38cef9e40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirza/Distortion Shockwaves VFX/Shaders using Guid(b1150a243f64b3f40834ec38cef9e40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49708dc2c1682af558608217ffc98a08') in 0.0005248 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.770766 seconds.
-  path: Assets/Mirza/Distortion Shockwaves VFX/Textures
-  artifactKey: Guid(b7535efb7f633144d83b9b1ec1828988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirza/Distortion Shockwaves VFX/Textures using Guid(b7535efb7f633144d83b9b1ec1828988) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a82a7f2f9d3f335eb140a7bd606ff40') in 0.0004594 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011976 seconds.
-  path: Assets/Mirza/Distortion Shockwaves VFX/Textures/Checkers.png
-  artifactKey: Guid(81d705c259b72354780fe16210cf35f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirza/Distortion Shockwaves VFX/Textures/Checkers.png using Guid(81d705c259b72354780fe16210cf35f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80561c03b3f89072138a31f93d9be2da') in 0.0502044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.405022 seconds.
-  path: Assets/Mirza/Distortion Shockwaves VFX/Scripts
-  artifactKey: Guid(b45ded00739a6534f836a992968ad042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirza/Distortion Shockwaves VFX/Scripts using Guid(b45ded00739a6534f836a992968ad042) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6051a8c5e2283d39b19f60330b22e374') in 0.0005471 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.330139 seconds.
-  path: Assets/Mirza/Distortion Shockwaves VFX/Materials
-  artifactKey: Guid(61b029c1304e27c43ac71a92bc84e2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirza/Distortion Shockwaves VFX/Materials using Guid(61b029c1304e27c43ac71a92bc84e2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef929525fbab3eb0285bb84619ebc408') in 0.0004674 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020846 seconds.
-  path: Assets/Mirza/Distortion Shockwaves VFX/Materials/Checkers.mat
-  artifactKey: Guid(0a20f804e84811b419842eb637394014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirza/Distortion Shockwaves VFX/Materials/Checkers.mat using Guid(0a20f804e84811b419842eb637394014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e84b285ba5dcb3f0eab9d4b60175a762') in 0.5018145 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Mirza/Distortion Shockwaves VFX/Materials/Distortion Shockwave Particle (Quad 1).mat
-  artifactKey: Guid(6374082b55b1b9d498dc38a88f763390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirza/Distortion Shockwaves VFX/Materials/Distortion Shockwave Particle (Quad 1).mat using Guid(6374082b55b1b9d498dc38a88f763390) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a93c573ff0e9681c067146d8414b741') in 0.1607091 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Mirza/Distortion Shockwaves VFX/Materials/Particle Shockwave.mat
-  artifactKey: Guid(d4f99e1e95c5bcf4d81c4d1a0d6040da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirza/Distortion Shockwaves VFX/Materials/Particle Shockwave.mat using Guid(d4f99e1e95c5bcf4d81c4d1a0d6040da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcfa9ae93e68a4a409fa66903e2079da') in 0.0075378 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Mirza/Distortion Shockwaves VFX/Materials/Distortion Shockwave Particle (Mouse Ripples).mat
-  artifactKey: Guid(6c4fcae31fbf50b43aa28230daf0cc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirza/Distortion Shockwaves VFX/Materials/Distortion Shockwave Particle (Mouse Ripples).mat using Guid(6c4fcae31fbf50b43aa28230daf0cc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af773bc0bb1c5b0fc13a1f7a4b0b8168') in 0.0064709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Mirza/Distortion Shockwaves VFX/Materials/Distortion Shockwave Particle (Particle Ripple).mat
-  artifactKey: Guid(0402a29f13b0b6f46bc61d08b6597898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirza/Distortion Shockwaves VFX/Materials/Distortion Shockwave Particle (Particle Ripple).mat using Guid(0402a29f13b0b6f46bc61d08b6597898) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da6bdedba222f4cc779bc343540010b9') in 0.0075012 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Mirza/Distortion Shockwaves VFX/Materials/Sample.mat
-  artifactKey: Guid(85eaecb9cf6c1864184242907f3e9f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirza/Distortion Shockwaves VFX/Materials/Sample.mat using Guid(85eaecb9cf6c1864184242907f3e9f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddd7d8c467f172992b9871809cac93b2') in 0.0096581 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Mirza/Distortion Shockwaves VFX/Materials/Particle Shockwave 1.mat
-  artifactKey: Guid(5c6f6c56cf53c904a8e3eb0a9f041941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirza/Distortion Shockwaves VFX/Materials/Particle Shockwave 1.mat using Guid(5c6f6c56cf53c904a8e3eb0a9f041941) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c4222c9e1aa34ccb83797f65f5868c6') in 0.0066501 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Mirza/Distortion Shockwaves VFX/Materials/Distortion Shockwave Particle (Quad 2).mat
-  artifactKey: Guid(51d809c1592ad624abd5bbf860156018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirza/Distortion Shockwaves VFX/Materials/Distortion Shockwave Particle (Quad 2).mat using Guid(51d809c1592ad624abd5bbf860156018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6904fd8ff6cbb198c71294f48f203e1') in 0.0065762 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000044 seconds.
+  path: Assets/GabrielAguiarProductions/Prefabs/StylizedIceAttack/vfx_IceAttack01_v2_orange.prefab
+  artifactKey: Guid(808bbd76effae904ba918e9e91c98dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Prefabs/StylizedIceAttack/vfx_IceAttack01_v2_orange.prefab using Guid(808bbd76effae904ba918e9e91c98dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db5a3186b6e283c105c06b97ccf9584f') in 0.0654464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 75
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

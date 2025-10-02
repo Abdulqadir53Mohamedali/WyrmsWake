@@ -101,7 +101,7 @@ Material:
     - _AlphaCutoff: 0.5
     - _AlphaToMask: 0
     - _Alpha_Mask_Power: 0.5
-    - _Animation: 2.27
+    - _Animation: 3
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
@@ -112,8 +112,8 @@ Material:
     - _Debug: 0
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _Distortion: 0.02
-    - _DistortionDepthFade: 1
+    - _Distortion: 0.06
+    - _DistortionDepthFade: 2
     - _DistortionDepthFadePower: 2
     - _DistortionNormalStrength: 1
     - _Distortion_Mask_Power: 1
@@ -129,7 +129,7 @@ Material:
     - _InnerRadialDistortionMaskAlphaPower: 0.23
     - _InnerRadialDistortionMaskHardness: 0.4
     - _InnerRadialDistortionMaskPower: 1.2
-    - _InnerRadialDistortionMaskRadius: 1
+    - _InnerRadialDistortionMaskRadius: 0.712
     - _InnerRadialDistortionMaskasAlpha: 0
     - _InnerRadialDistortionMaskasAlphaPower: 1
     - _Inner_Feather: 0.5
@@ -149,8 +149,8 @@ Material:
     - _Outer_Remap_Max: 0.2
     - _Outer_Remap_Min: 0
     - _Parallax: 0.005
-    - _ParticleAnimation: 4.16
-    - _ParticleRandomize: 0.2412162
+    - _ParticleAnimation: 2
+    - _ParticleRandomize: 0.417
     - _Particle_Animation: 1
     - _Power: 1
     - _QueueControl: 0
@@ -189,8 +189,8 @@ Material:
     - _TessPhongStrength: 0.5
     - _TessValue: 16
     - _Tiliing: 3
-    - _Tiling: 1.45
-    - _WaveSmoothness: 0.545
+    - _Tiling: 2
+    - _WaveSmoothness: 0.548
     - _WaveSmoothstep: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
@@ -198,7 +198,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
-    - _Colour: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
+    - _Colour: {r: 0.8679245, g: 0.84393454, b: 0.8228907, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Vector0: {r: 0, g: 0, b: 0, a: 0}
